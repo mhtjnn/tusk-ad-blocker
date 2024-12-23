@@ -1,0 +1,70 @@
+{
+  "name": "ghostery-extension",
+  "private": true,
+  "version": "10.4.17",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "npm run build -- --watch",
+    "start:update": "./scripts/update.sh",
+    "debug": "npm run build -- --watch --debug",
+    "lint": "npm run lint:src && npm run lint:build",
+    "lint:src": "eslint",
+    "lint:build": "npm run build firefox -- --silent && addons-linter dist",
+    "test": "npm run wdio && npm run wdio:update",
+    "wdio": "wdio tests/e2e/wdio.conf.js",
+    "wdio:update": "wdio tests/e2e/wdio.update.conf.js",
+    "locales:setup": "cp -f ./src/messages.json ./src/_locales/en/messages.json",
+    "locales.src": "hybrids extract -c --format=chrome.i18n ./src ./src/_locales/en/messages.json",
+    "locales": "npm run locales:setup && npm run locales.src",
+    "xcode-export-locales": "rm -rf ./xcode/en.xcloc && xcodebuild -exportLocalizations -project ./xcode/Ghostery.xcodeproj -localizationPath ./xcode",
+    "release": "./scripts/release.sh",
+    "package": "./scripts/package.sh"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/chrome": "^0.0.287",
+    "@wdio/browser-runner": "9.2.1",
+    "@wdio/cli": "9.2.1",
+    "@wdio/globals": "9.2.1",
+    "@wdio/mocha-framework": "9.1.3",
+    "@wdio/spec-reporter": "9.2.2",
+    "addons-linter": "^7.6.0",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.13.0",
+    "license-report": "^6.5.0",
+    "prettier": "^3.4.2",
+    "sinon-chrome": "^3.0.1",
+    "vite": "^6.0.3",
+    "web-ext": "^8.2.0",
+    "webextension-polyfill": "^0.12.0"
+  },
+  "dependencies": {
+    "@duckduckgo/autoconsent": "^10.17.0",
+    "@ghostery/adblocker": "^2.1.1",
+    "@ghostery/adblocker-webextension": "^2.1.1",
+    "@github/relative-time-element": "^4.4.4",
+    "@sentry/browser": "^8.42.0",
+    "@whotracksme/reporting": "^5.2.0",
+    "bowser": "^2.11.0",
+    "hybrids": "^9.1.8",
+    "idb": "^8.0.0",
+    "jwt-decode": "^4.0.0",
+    "tldts-experimental": "^6.1.66"
+  },
+  "engineStrict": true,
+  "engines": {
+    "npm": ">=9.6.7"
+  },
+  "webExt": {
+    "sourceDir": "./dist/"
+  },
+  "author": {
+    "name": "Ghostery GmbH",
+    "email": "info@ghostery.com",
+    "url": "https://www.ghostery.com"
+  },
+  "license": "MPL-2.0"
+}
