@@ -107,7 +107,7 @@ button {
   padding: 14px 50px;
   border: none;
   border-radius: 50px;
-  background-color: #00aef0;
+  background-color: #f52424;
   color: white;
   font-family: inherit;
   font-size: 24px;
@@ -131,7 +131,7 @@ section:last-child {
   padding-bottom: 24px;
 }
 
-#enjoying-ghostery {
+#enjoying-TUSK-AdBlocker {
   background: url('./GlowingArch.svg') no-repeat top center;
   padding-top: 56px;
 }

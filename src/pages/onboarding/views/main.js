@@ -1,8 +1,8 @@
 /**
- * Ghostery Browser Extension
+ * TUSK AdBlocker Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present Ghostery GmbH. All rights reserved.
+ * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -21,18 +21,21 @@ import Privacy from './privacy.js';
 import Skip from './skip.js';
 import Success from './success.js';
 
-const TERMS_AND_CONDITIONS_URL = `https://www.${GHOSTERY_DOMAIN}/privacy/ghostery-terms-and-conditions?utm_source=gbe&utm_campaign=onboarding`;
+const TERMS_AND_CONDITIONS_URL = `https://www.${GHOSTERY_DOMAIN}/privacy/TUSK-AdBlocker-terms-and-conditions?utm_source=gbe&utm_campaign=onboarding`;
 
 function acceptTerms(host, event) {
   router.resolve(event, store.set(Options, { terms: true }));
   let paused = {};
-  WHITELIST_WEBSITES.forEach(value => paused[value] = {
-    revokeAt: 0
-  });
+  WHITELIST_WEBSITES.forEach(
+    (value) =>
+      (paused[value] = {
+        revokeAt: 0,
+      }),
+  );
   router.resolve(
     store.set(Options, {
-      paused: paused
-    })
+      paused: paused,
+    }),
   );
 }
 
@@ -44,8 +47,10 @@ export default {
     <template layout="grow column gap">
       <ui-card layout="gap:2" layout@390px="gap:3">
         <section layout="block:center column gap" layout@390px="margin:2:0:1">
-          <ui-text type="body-l">Welcome to Ghostery</ui-text>
-          <ui-text type="display-m"> Enable Ghostery to get started </ui-text>
+          <ui-text type="body-l">Welcome to TUSK AdBlocker</ui-text>
+          <ui-text type="display-m">
+            Enable TUSK AdBlocker to get started
+          </ui-text>
         </section>
         <div layout="column gap:2">
           <ui-text type="label-m" layout="block:center">
@@ -76,25 +81,25 @@ export default {
               <a href="${router.url(Performance)}">performance telemetry</a>
               will be shared in accordance with our <a href="${
                 __PLATFORM__ === 'firefox'
-                  ? 'https://addons.mozilla.org/firefox/addon/ghostery/privacy/'
+                  ? 'https://addons.mozilla.org/firefox/addon/TUSK-AdBlocker/privacy/'
                   : router.url(Privacy)
-              }" target="_blank" rel="noreferrer">Privacy Policy</a>, advancing privacy protection for the Ghostery community. | 'add-on' means 'browser extension'
+              }" target="_blank" rel="noreferrer">Privacy Policy</a>, advancing privacy protection for the TUSK AdBlocker community. | 'add-on' means 'browser extension'
             `}
           </ui-text>
           <ui-text type="body-s" layout="block:justify">
-            Ghostery never collects personal information like passwords,
+            TUSK AdBlocker never collects personal information like passwords,
             browsing history or the content of the pages you visit.
           </ui-text>
         </div>
         <div layout="column gap:2">
           <ui-button type="success" layout="height:5.5" data-qa="button:enable">
             <a href="${router.url(Success)}" onclick="${acceptTerms}">
-              Enable Ghostery
+              Enable TUSK AdBlocker
             </a>
           </ui-button>
           <onboarding-error-card layout="margin:top">
             <ui-text type="label-s" color="danger-500" layout="block:center">
-              With Ghostery disabled, only the basic functionality of naming
+              With TUSK AdBlocker disabled, only the basic functionality of
               trackers is available.
             </ui-text>
             <ui-button type="outline-danger" data-qa="button:skip">

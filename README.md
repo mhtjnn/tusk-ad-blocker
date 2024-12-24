@@ -1,9 +1,9 @@
-# Ghostery Browser Extension
+# TUSK AdBlocker Browser Extension
 
 [![Tests](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml)
 ![GitHub Release](https://img.shields.io/github/v/release/ghostery/ghostery-extension)
 
-Ghostery is a powerful Tracker & Adblocker browser extension with over 100 million downloads. Block ads, stop trackers, and speed up websites. Privacy at its best.
+TUSK AdBlocker is a powerful Tracker & Adblocker browser extension with over 100 million downloads. Block ads, stop trackers, and speed up websites. Privacy at its best.
 
 * Block all ads on websites, including YouTube and Facebook, to focus on the information that matters.
 * Stop trackers from collecting your personal data.
@@ -51,12 +51,12 @@ The build script caches fetched resources in several directories to speed up the
 npm start -- --clean
 ```
 
-## Ghostery Team
+## TUSK AdBlocker Team
 
-Ghostery relies on [contributions](https://github.com/ghostery/ghostery-extension/graphs/contributors) from lots of talented people.
+TUSK AdBlocker relies on [contributions](https://github.com/ghostery/ghostery-extension/graphs/contributors) from lots of talented people.
 
 ## License
 
-[MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/) Copyright 2017-present Ghostery GmbH. All rights reserved.
+[MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/) Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
 
 See [LICENSE](LICENSE)

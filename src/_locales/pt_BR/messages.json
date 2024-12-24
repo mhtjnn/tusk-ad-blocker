@@ -326,7 +326,7 @@
     "message": "Configurações do Ghostery"
   },
   "ghostery_tracker___ad_blocker_is_naming_the_trackers_present_on_websites_you_visit__you_are_browsing_the_web_unprotected_": {
-    "message": "O Ghostery Tracker &amp; Ad Blocker está nomeando os rastreadores presentes nos sites que você visita. Você está navegando na Web sem proteção."
+    "message": "O TUSK AdBlocker &amp; está nomeando os rastreadores presentes nos sites que você visita. Você está navegando na Web sem proteção."
   },
   "ghostery_will_show_how_many_trackers_were_blocked_on_a_page__clicking_on_the_ghostery_icon_reveals_more_detailed_information_": {
     "message": "O Ghostery mostrará quantos rastreadores foram bloqueados em uma página. Clicar no ícone Ghostery revela informações mais detalhadas."
@@ -388,7 +388,7 @@
     "message": "Carregar mais"
   },
   "manifest_name": {
-    "message": "Ghostery Tracker & Ad Blocker - Privacidade AdBlock"
+    "message": "TUSK AdBlocker - Privacidade AdBlock"
   },
   "manifest_short_description": {
     "message": "Extensão de privacidade poderosa e fácil de usar. Bloqueie anúncios, rastreadores e acelere sua navegação na web."

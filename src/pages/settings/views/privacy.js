@@ -81,9 +81,7 @@ export default {
             <div layout="column gap" layout@992px="margin:bottom">
               <ui-text type="headline-m"> Privacy protection </ui-text>
               <ui-text type="body-l" mobile-type="body-m" color="gray-600">
-                Ghostery protects your privacy by detecting and neutralizing
-                different types of data collection including ads, trackers, and
-                cookie pop-ups.
+                TUSK AdBlocker protects your privacy by detecting and pop-ups.
               </ui-text>
             </div>
             <ui-toggle
@@ -94,7 +92,7 @@ export default {
               <div layout="column gap:0.5 grow">
                 <div layout="row gap items:center">
                   <ui-icon name="pause" color="gray-800"></ui-icon>
-                  <ui-text type="headline-xs">Pause Ghostery</ui-text>
+                  <ui-text type="headline-xs">Pause TUSK AdBlocker</ui-text>
                 </div>
                 <ui-text type="body-m" mobile-type="body-s" color="gray-600">
                   Suspends privacy protection globally for 1 day.
@@ -272,7 +270,7 @@ export default {
                       mobile-type="body-s"
                       color="gray-600"
                     >
-                      Helps Ghostery fix broken pages faster. By activating you
+                      Helps TUSK AdBlocker fix broken pages faster. By can test
                       can test experimental filters and support us with
                       feedback. Please send a message to support@ghostery.com
                       describing how your experience changed after enabling.
@@ -311,7 +309,7 @@ export default {
                         color="gray-600"
                       >
                         Facilitates the creation of your own ad-blocking rules
-                        to customize your Ghostery experience.
+                        to customize your TUSK AdBlocker experience.
                       </ui-text>
                       <ui-text
                         type="label-s"
@@ -394,7 +392,7 @@ export default {
                           You are awesome!
                         </ui-text>
                         <ui-text type="body-s" color="gray-600">
-                          Thank you for your support in Ghostery's fight for a
+                          Thank you for your support in TUSK AdBlocker's fight
                           web where privacy is a basic human right!
                         </ui-text>
                       </div>
@@ -416,7 +414,7 @@ export default {
                           Become a Contributor
                         </ui-text>
                         <ui-text type="body-s" color="gray-600">
-                          Help Ghostery fight for a web where privacy is a basic
+                          Help TUSK AdBlocker fight for a web where privacy is
                           human right.
                         </ui-text>
                       </div>

@@ -1,8 +1,8 @@
 /**
- * Ghostery Browser Extension
+ * TUSK AdBlocker Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present Ghostery GmbH. All rights reserved.
+ * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -68,7 +68,9 @@ export const config = {
 
         // Download build artifacts
         if (!existsSync(resolve(buildPath))) {
-          console.log(`Downloading Ghostery extension from ${url}${fileName}`);
+          console.log(
+            `Downloading TUSK AdBlocker extension from ${url}${fileName}`,
+          );
           execSync(`curl -L -o ${buildPath} "${url}${fileName}"`);
         }
 
@@ -93,7 +95,7 @@ export const config = {
             cpSync(wdio.CHROME_PATH, sourcePath, { recursive: true });
             rmSync(wdio.CHROME_PATH, { recursive: true, force: true });
 
-            console.log(`Unzipping Ghostery extension...`);
+            console.log(`Unzipping TUSK AdBlocker extension...`);
             execSync(`unzip ${buildPath} -d ${wdio.CHROME_PATH}`);
             break;
           }

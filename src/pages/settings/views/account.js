@@ -83,7 +83,7 @@ export default {
                       <ui-text type="headline-s"> ${session.name} </ui-text>
                       ${session.contributor &&
                       html`<settings-badge type="primary" uppercase>
-                        Contributor
+                        TUSK AdBlocker
                       </settings-badge>`}
                     </div>
                     <ui-text type="body-m" color="gray-600"
@@ -100,13 +100,13 @@ export default {
                 `
               : html`
                   <div>
-                    <ui-text type="headline-s">Join Ghostery</ui-text>
+                    <ui-text type="headline-s">Join TUSK AdBlocker</ui-text>
                     <ui-text
                       color="gray-600"
                       type="body-m"
                       mobile-type="body-s"
                     >
-                      Sign in or create account on ghostery.com
+                      Sign in or create account on TUSK AdBlocker.com
                     </ui-text>
                   </div>
                   <div layout="row gap">

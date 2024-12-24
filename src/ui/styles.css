@@ -25,24 +25,24 @@
 html {
   --ui-color-layout: white;
 
-  --ui-color-gray-800: #2b2f3b;
-  --ui-color-gray-600: #555962;
-  --ui-color-gray-400: #a7a7aa;
+  --ui-color-gray-800: #442f30;
+  --ui-color-gray-600: #635359;
+  --ui-color-gray-400: #ac708c;
   --ui-color-gray-300: #cdced0;
   --ui-color-gray-200: #e3e5e8;
   --ui-color-gray-100: #f3f4f7;
 
-  --ui-color-primary-700: #0077cc;
-  --ui-color-primary-500: #00aef0;
-  --ui-color-primary-300: #9adeff;
-  --ui-color-primary-200: #daf3ff;
-  --ui-color-primary-100: #ebf7fd;
+  --ui-color-primary-700: #bb2d3b;
+  --ui-color-primary-500: #dc3545;
+  --ui-color-primary-300: #e6b2b2;
+  --ui-color-primary-200: #eca0a6;
+  --ui-color-primary-100: #f5ecec;
 
-  --ui-color-success-700: #008d00;
-  --ui-color-success-500: #0ab00a;
-  --ui-color-success-100: #ebfaeb;
+  --ui-color-success-700: #dc3545;
+  --ui-color-success-500: #ff0000;
+  --ui-color-success-100: #FF5A6F;
 
-  --ui-color-warning-500: #ffbb00;
+  --ui-color-warning-500: #ff0000;
   --ui-color-warning-200: #fff7e6;
   --ui-color-warning-100: #13151a;
 
@@ -86,30 +86,31 @@ html {
   html {
     --ui-color-layout: #1f2125;
 
-    --ui-color-gray-800: #f2f4f7;
-    --ui-color-gray-600: #b9bbbe;
+    --ui-color-gray-800: #f7f2f3;
+    --ui-color-gray-600: #c1c3c5;
     --ui-color-gray-400: #88898c;
     --ui-color-gray-300: #636468;
     --ui-color-gray-200: #36393f;
-    --ui-color-gray-100: #13151a;
+    --ui-color-gray-100: #471919;
 
-    --ui-color-primary-700: #33c7ff;
-    --ui-color-primary-500: #00aef0;
-    --ui-color-primary-300: #004f88;
-    --ui-color-primary-200: #00365c;
-    --ui-color-primary-100: #0a1e31;
+    --ui-color-primary-700: #ff0000;
+    --ui-color-primary-500: #ff1a1a;
+    --ui-color-primary-300: #ff6666;
+    --ui-color-primary-200: #ff9999;
+    --ui-color-primary-100: #ffcccc;
 
-    --ui-color-success-700: #36b736;
-    --ui-color-success-500: #1b911b;
-    --ui-color-success-100: #056605;
+
+    --ui-color-success-700: #ff1a1a;
+    --ui-color-success-500: #ff6666;
+    --ui-color-success-100: #ff6666;
 
     --ui-color-warning-500: #ffbb00;
     --ui-color-warning-200: #3c3523;
     --ui-color-warning-100: #13151a;
 
-    --ui-color-danger-700: #e05c5e;
-    --ui-color-danger-500: #cd393c;
-    --ui-color-danger-300: #7f3d3d;
+    --ui-color-danger-700: #e94244;
+    --ui-color-danger-500: #e26466;
+    --ui-color-danger-300: #e6caca;
     --ui-color-danger-100: #251314;
 
     --ui-color-backdrop: var(--ui-color-gray-100);

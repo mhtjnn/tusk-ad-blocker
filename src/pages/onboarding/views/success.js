@@ -1,8 +1,8 @@
 /**
- * Ghostery Browser Extension
+ * TUSK AdBlocker Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present Ghostery GmbH. All rights reserved.
+ * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -34,7 +34,7 @@ export default {
           <div layout="row center">${protection}</div>
           <ui-text type="display-s">Setup Successful</ui-text>
           <ui-text>
-            Ghostery is all set to stop trackers in their tracks and protect
+            TUSK AdBlocker is all set to stop trackers in their tracks and your
             your privacy while browsing!
           </ui-text>
         </section>
@@ -60,12 +60,13 @@ export default {
               <ui-text type="label-m">Pin Extension for easy access</ui-text>
             </div>
             <ui-text>
-              Click the puzzle icon next to the search bar and pin Ghostery to
-              your toolbar.
+              Click the puzzle icon next to the search bar and pin TUSK
+              AdBlocker your your toolbar.
             </ui-text>
             <ui-text>
-              Ghostery will show how many trackers were blocked on a page.
-              Clicking on the Ghostery icon reveals more detailed information.
+              TUSK AdBlocker will show how many trackers were blocked on a
+              Clicking on the TUSK AdBlocker icon reveals more detailed
+              information.
             </ui-text>
           </section>
         </ui-card>

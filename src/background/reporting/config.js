@@ -1,8 +1,8 @@
 /**
- * Ghostery Browser Extension
+ * TUSK AdBlocker Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present Ghostery GmbH. All rights reserved.
+ * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -14,7 +14,7 @@ function platformSpecificSettings() {
     /iPad|iPhone|iPod/.test(navigator.platform) ||
     (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
   ) {
-    // Ghostery extension for Safari on iOS and other Apple mobile devices
+    // TUSK AdBlocker extension for Safari on iOS and other Apple mobile devices
     return {
       ALLOWED_COUNTRY_CODES: ['us', 'de', 'fr'],
       PATTERNS_URL: 'https://cdn2.ghostery.com/wtm-safari-ios/patterns.json',
@@ -27,7 +27,7 @@ function platformSpecificSettings() {
     /Apple Computer/.test(navigator.vendor) &&
     !/Mobi|Android/i.test(navigator.userAgent)
   ) {
-    // Ghostery extension for Safari on MacOS (Desktop)
+    // TUSK AdBlocker extension for Safari on MacOS (Desktop)
     return {
       ALLOWED_COUNTRY_CODES: ['us', 'de', 'fr'],
       PATTERNS_URL:
@@ -38,7 +38,7 @@ function platformSpecificSettings() {
 
   if (navigator.userAgent.includes('Android')) {
     if (navigator.userAgent.includes('Chrome/')) {
-      // Ghostery extension for Android Chromium forks (e.g. Edge, Kiwi)
+      // TUSK AdBlocker extension for Android Chromium forks (e.g. Edge, Kiwi)
       return {
         ALLOWED_COUNTRY_CODES: ['us', 'de', 'fr'],
         PATTERNS_URL:
@@ -47,7 +47,7 @@ function platformSpecificSettings() {
       };
     }
 
-    // Firefox Android & Ghostery Android Browser
+    // Firefox Android & TUSK AdBlocker Android Browser
     return {
       ALLOWED_COUNTRY_CODES: [
         'us',
@@ -101,7 +101,7 @@ function platformSpecificSettings() {
   }
 
   if (navigator.userAgent.includes('Edg/')) {
-    // Ghostery extension for Microsoft's Edge desktop browser
+    // TUSK AdBlocker extension for Microsoft's Edge desktop browser
     return {
       ALLOWED_COUNTRY_CODES: [
         'us',
@@ -127,7 +127,7 @@ function platformSpecificSettings() {
   }
 
   if (navigator.userAgent.includes('Firefox/')) {
-    // Ghostery extension running inside Firefox Desktop or the Ghostery Desktop Browser
+    // TUSK AdBlocker extension running inside Firefox Desktop or the TUSK AdBlocker Desktop Browser
     return {
       ALLOWED_COUNTRY_CODES: [
         'us',
@@ -175,7 +175,7 @@ function platformSpecificSettings() {
   }
 
   if (navigator.userAgent.includes('Chrome/')) {
-    // Ghostery extension running inside Chrome Desktop
+    // TUSK AdBlocker extension running inside Chrome Desktop
     return {
       ALLOWED_COUNTRY_CODES: [
         'us',

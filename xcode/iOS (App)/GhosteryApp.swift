@@ -1,6 +1,6 @@
 //
 //  MainView.swift
-//  Ghostery
+//  TUSK AdBlocker
 //
 //  Created by Krzysztof Jan Modras on 29.11.21.
 //

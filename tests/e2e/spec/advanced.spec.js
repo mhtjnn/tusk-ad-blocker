@@ -1,5 +1,5 @@
 /**
- * Ghostery Browser Extension
+ * TUSK AdBlocker Browser Extension
  * https://www.ghostery.com/
  *
  * Copyright 2017-present Ghostery GmbH. All rights reserved.
