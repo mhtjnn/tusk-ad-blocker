@@ -90,10 +90,10 @@ export default {
                 <div layout="row items:start gap:2" layout@768px="gap:3">
                   <a href="${router.url(Preview, PREVIEWS['trackers_count'])}">
                     <settings-help-image>
-                      // <img
-                      //   src="${assets.trackers_count_small}"
-                      //   alt="Trackers Count"
-                      // />
+                      <img
+                        src="${assets.trackers_count_small}"
+                        alt="Trackers Count"
+                      />
                     </settings-help-image>
                   </a>
                   <div layout="column grow gap:0.5">
