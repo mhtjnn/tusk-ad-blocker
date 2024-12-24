@@ -1,8 +1,8 @@
 /**
- * Ghostery Browser Extension
+ * TUSK AdBlocker Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present Ghostery GmbH. All rights reserved.
+ * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -22,7 +22,7 @@ import Success from './views/success.js';
 
 store.resolve(Options).then(({ onboarding, terms, managed }) => {
   // As the user can access settings page from browser native UI
-  // we must redirect to the Ghostery website if the user has already
+  // we must redirect to the TUSK AdBlocker website if the user has already
   // accepted the terms and conditions and the extension is managed
   if (terms && managed) {
     return window.location.replace(`https://www.${GHOSTERY_DOMAIN}`);

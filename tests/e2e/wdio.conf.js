@@ -1,8 +1,8 @@
 /**
- * Ghostery Browser Extension
+ * TUSK AdBlocker Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present Ghostery GmbH. All rights reserved.
+ * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -177,7 +177,7 @@ export const config = {
 
       await browser.waitUntil(async function () {
         try {
-          await browser.switchWindow('Welcome to Ghostery');
+          await browser.switchWindow('Welcome to TUSK AdBlocker');
           return true;
         } catch {
           return false;

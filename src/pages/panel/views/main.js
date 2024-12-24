@@ -1,8 +1,8 @@
 /**
- * Ghostery Browser Extension
+ * TUSK AdBlocker Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present Ghostery GmbH. All rights reserved.
+ * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -74,8 +74,8 @@ async function togglePause(host, event) {
   showAlert(
     host,
     paused
-      ? msg`Ghostery has been resumed on this site.`
-      : msg`Ghostery is paused on this site.`,
+      ? msg`TUSK AdBlocker has been resumed on this site.`
+      : msg`TUSK AdBlocker is paused on this site.`,
   );
 }
 
@@ -88,7 +88,7 @@ function revokeGlobalPause(host) {
 
   reloadTab();
 
-  showAlert(host, msg`Ghostery has been resumed.`);
+  showAlert(host, msg`TUSK AdBlocker has been resumed.`);
 }
 
 function setStatsType(host, event) {
@@ -184,7 +184,7 @@ export default {
                   onclick="${openTabWithUrl}"
                 >
                   <ui-icon name="play"></ui-icon>
-                  Enable Ghostery
+                  Enable TUSK AdBlocker
                 </a>
               </ui-button>
             `}
@@ -230,10 +230,10 @@ export default {
                     type="label-l"
                     layout="block:center width:::210px margin:top"
                   >
-                    Ghostery has nothing to do on this page
+                    TUSK AdBlocker has nothing to do on this page
                   </ui-text>
                   <ui-text type="body-m" layout="block:center width:::245px">
-                    Navigate to a website to see Ghostery in action.
+                    Navigate to a website to see TUSK AdBlocker in action.
                   </ui-text>
                 </div>
               `}

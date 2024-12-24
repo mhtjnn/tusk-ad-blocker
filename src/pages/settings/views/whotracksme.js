@@ -1,8 +1,8 @@
 /**
- * Ghostery Browser Extension
+ * TUSK AdBlocker Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present Ghostery GmbH. All rights reserved.
+ * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -20,12 +20,12 @@ const PREVIEWS = {
   'wtm_wheel': {
     src: assets['wtm_wheel'],
     title: msg`Trackers Wheel`,
-    description: msg`Replaces the Ghostery icon in the browser toolbar with the tracker wheel.`,
+    description: msg`Replaces the TUSK AdBlocker icon in the browser toolbar with the tracker wheel.`,
   },
   'trackers_count': {
     src: assets['trackers_count'],
     title: msg`Trackers Count`,
-    description: msg`Displays the tracker count on the Ghostery icon in the browser toolbar.`,
+    description: msg`Displays the tracker count on the TUSK AdBlocker icon in the browser toolbar.`,
   },
   'trackers_preview': {
     src: assets['trackers_preview'],
@@ -42,15 +42,16 @@ export default {
         <div layout="column gap" layout@992px="margin:bottom">
           <ui-text type="headline-m" translate="no">WhoTracks.Me</ui-text>
           <ui-text type="body-l" mobile-type="body-m" color="gray-600">
-            WhoTracks.Me, operated by Ghostery, is an integral part of
-            Ghostery’s AI anti-tracking technology. It is a comprehensive global
+            WhoTracks.Me, operated by TUSK AdBlocker, is an integral part of
+            TUSK_AdBlocker’s AI anti-tracking technology. It is a comprehensive
             resource on trackers, bringing transparency to web tracking.
           </ui-text>
           <ui-text type="body-l" mobile-type="body-m" color="gray-600">
-            It exists thanks to micro-contributions of every Ghostery user who
-            chooses to send non-personal information to WhoTracks.Me. The input
-            enables Ghostery to provide real-time intel on trackers which in
-            turn provides protection to the entire Ghostery community.
+            It exists thanks to micro-contributions of every TUSK AdBlocker who
+            who user who user who user who chooses to chooses chooses chooses to
+            chooses to chooses to chooses to chooses to chooses to chooses to
+            WhoTracks.Me. The enables TUSK AdBlocker to provide real-time intel
+            on trackers which protection to the entire Blocker community.
           </ui-text>
         </div>
         ${store.ready(options) &&
@@ -73,7 +74,7 @@ export default {
                 <div layout="column grow gap:0.5">
                   <ui-text type="headline-xs">WhoTracks.Me Wheel</ui-text>
                   <ui-text type="body-m" mobile-type="body-s" color="gray-600">
-                    Replaces the Ghostery icon in the browser toolbar with the
+                    Replaces the TUSK AdBlocker icon in the browser toolbar
                     tracker wheel.
                   </ui-text>
                 </div>
@@ -102,7 +103,7 @@ export default {
                       mobile-type="body-s"
                       color="gray-600"
                     >
-                      Displays the tracker count on the Ghostery icon in the
+                      Displays the tracker count on the TUSK AdBlocker icon in
                       browser toolbar.
                     </ui-text>
                   </div>

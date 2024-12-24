@@ -1,8 +1,8 @@
 /**
- * Ghostery Browser Extension
+ * TUSK AdBlocker Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present Ghostery GmbH. All rights reserved.
+ * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -15,7 +15,7 @@ import Session from '/store/session.js';
 import { MergedStats } from '/store/daily-stats.js';
 
 if (__PLATFORM__ === 'chromium' || __PLATFORM__ === 'firefox') {
-  // Listen for messages from Ghostery Search extension
+  // Listen for messages from TUSK AdBlocker Search extension
   // https://github.com/ghostery/ghostery-search-extension/blob/main/src/background.js#L40
 
   const GHOSTERY_SEARCH_EXTENSION_IDS = [
@@ -27,7 +27,7 @@ if (__PLATFORM__ === 'chromium' || __PLATFORM__ === 'firefox') {
 
   chrome.runtime.onMessageExternal.addListener(
     (message, sender, sendResponse) => {
-      // Refresh session support for Ghostery Search extension
+      // Refresh session support for TUSK AdBlocker Search extension
       if (GHOSTERY_SEARCH_EXTENSION_IDS.includes(sender.id)) {
         switch (message) {
           case 'refreshToken':
@@ -43,7 +43,7 @@ if (__PLATFORM__ === 'chromium' || __PLATFORM__ === 'firefox') {
         }
       }
 
-      // Send historical stats to Ghostery New Tab extension
+      // Send historical stats to TUSK AdBlocker New Tab extension
       if (GHOSTERY_NEW_TAB_EXTENSION_IDS.includes(sender.id)) {
         switch (message?.name) {
           case 'getDashboardStats': {
