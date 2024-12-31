@@ -95,9 +95,6 @@ export default {
           : html`<ui-icon name="user" color="nav"></ui-icon> My Account`}
         </a>
         -->
-
-        <!-- Commenting Become a Contributor Section -->
-        <!--
         ${__PLATFORM__ !== 'safari' &&
         store.ready(session) &&
         html`
@@ -151,6 +148,7 @@ export default {
                       Help TUSK AdBlocker fight for a web where privacy is a
                       human right.
                     </ui-text>
+                    <!--
                     <ui-button type="primary" layout="margin:top">
                       <a
                         href="https://www.ghostery.com/become-a-contributor?utm_source=gbe"
