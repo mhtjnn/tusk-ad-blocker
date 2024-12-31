@@ -70,6 +70,8 @@ export default {
           <ui-icon name="wtm" color="nav" layout="size:3"></ui-icon>
           WhoTracks.Me
         </a>
+
+        <!-- Commenting My Account Option -->
         <!--
         <a
           href="${router.url(Account)}"
@@ -92,6 +94,10 @@ export default {
             `
           : html`<ui-icon name="user" color="nav"></ui-icon> My Account`}
         </a>
+        -->
+
+        <!-- Commenting Become a Contributor Section -->
+        <!--
         ${__PLATFORM__ !== 'safari' &&
         store.ready(session) &&
         html`
@@ -158,6 +164,7 @@ export default {
           </settings-card>
         `}
         -->
+
         ${stack}
       </settings-layout>
     </template>
