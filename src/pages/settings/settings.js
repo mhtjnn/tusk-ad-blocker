@@ -70,27 +70,27 @@ export default {
           <ui-icon name="wtm" color="nav" layout="size:3"></ui-icon>
           WhoTracks.Me
         </a>
-
+        <!--
         <a
           href="${router.url(Account)}"
           class="${{ active: router.active(Account), bottom: true }}"
           slot="nav"
         >
           ${store.ready(session) && session.user
-            ? html`
-                ${session.contributor
-                  ? html`<ui-icon name="contributor"></ui-icon>`
-                  : html`<ui-icon name="user" color="nav"></ui-icon>`}
-                <span layout@992px="hidden">My Account</span>
-                <div
-                  layout="hidden"
-                  layout@992px="column margin:left:2px width::0"
-                >
-                  <div>My Account</div>
-                  <ui-text type="body-m" ellipsis>${session.email}</ui-text>
-                </div>
-              `
-            : html`<ui-icon name="user" color="nav"></ui-icon> My Account`}
+          ? html`
+              ${session.contributor
+                ? html`<ui-icon name="contributor"></ui-icon>`
+                : html`<ui-icon name="user" color="nav"></ui-icon>`}
+              <span layout@992px="hidden">My Account</span>
+              <div
+                layout="hidden"
+                layout@992px="column margin:left:2px width::0"
+              >
+                <div>My Account</div>
+                <ui-text type="body-m" ellipsis>${session.email}</ui-text>
+              </div>
+            `
+          : html`<ui-icon name="user" color="nav"></ui-icon> My Account`}
         </a>
         ${__PLATFORM__ !== 'safari' &&
         store.ready(session) &&
@@ -157,6 +157,7 @@ export default {
                 `}
           </settings-card>
         `}
+        -->
         ${stack}
       </settings-layout>
     </template>

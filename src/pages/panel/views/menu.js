@@ -76,24 +76,25 @@ export default {
               >
                 WhoTracks.Me
               </panel-menu-item>
+              <!-- Uncomment the following sections as needed -->
+              <!-- 
               <panel-menu-item
                 href="${chrome.runtime.getURL(
-                  '/pages/settings/index.html#@settings-account',
-                )}"
-                icon="${(store.ready(session) &&
-                  session.contributor &&
-                  'contributor') ||
-                'user'}"
+                '/pages/settings/index.html#@settings-account',
+              )}"
+                icon="${store.ready(session) && session.contributor
+                ? 'contributor'
+                : 'user'}"
               >
                 <div layout="column">
                   <span>My Account</span>
                   ${store.ready(session) &&
-                  (session.name || session.email) &&
-                  html`
-                    <ui-text type="body-xs" color="inherit">
-                      ${session.name || session.email}
-                    </ui-text>
-                  `}
+              (session.name || session.email) &&
+              html`
+                <ui-text type="body-xs" color="inherit">
+                  ${session.name || session.email}
+                </ui-text>
+              `}
                 </div>
               </panel-menu-item>
 
@@ -111,10 +112,12 @@ export default {
                   </a>
                 </ui-button>
               `}
-
+              -->
               <ui-line></ui-line>
             `}
 
+            <!-- Uncomment for support section -->
+            <!-- 
             <ui-text
               type="label-s"
               color="gray-600"
@@ -177,8 +180,8 @@ export default {
 
             <panel-menu-item
               href="${__PLATFORM__ === 'firefox'
-                ? 'https://addons.mozilla.org/firefox/addon/ghostery/privacy/'
-                : 'https://www.ghostery.com/privacy-policy?utm_source=gbe'}"
+              ? 'https://addons.mozilla.org/firefox/addon/ghostery/privacy/'
+              : 'https://www.ghostery.com/privacy-policy?utm_source=gbe'}"
               icon="privacy-m"
               suffix-icon="link-external-m"
             >
@@ -210,6 +213,7 @@ export default {
             >
               Software Licenses
             </panel-menu-item>
+            -->
           </div>
         `}
       </panel-container>
