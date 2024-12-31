@@ -67,15 +67,17 @@ export default {
               >
                 Trackers
               </panel-menu-item>
+              <!--
               <panel-menu-item
                 href="${chrome.runtime.getURL(
-                  '/pages/settings/index.html#@settings-whotracksme',
-                )}"
+                '/pages/settings/index.html#@settings-whotracksme',
+              )}"
                 icon="wtm"
                 translate="no"
               >
                 WhoTracks.Me
               </panel-menu-item>
+              -->
               <!-- Uncomment the following sections as needed -->
               <!-- 
               <panel-menu-item

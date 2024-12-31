@@ -60,6 +60,7 @@ export default {
           <ui-icon name="block-m" color="nav" layout="size:3"></ui-icon>
           Trackers
         </a>
+        <!--
         <a
           href="${router.url(Whotracksme)}"
           class="${{ active: router.active(Whotracksme), wrap: true }}"
@@ -70,7 +71,7 @@ export default {
           <ui-icon name="wtm" color="nav" layout="size:3"></ui-icon>
           WhoTracks.Me
         </a>
-
+          -->
         <!-- Commenting My Account Option -->
         <!--
         <a
@@ -161,9 +162,7 @@ export default {
                 `}
           </settings-card>
         `}
-        -->
-
-        ${stack}
+        --> ${stack}
       </settings-layout>
     </template>
   `,

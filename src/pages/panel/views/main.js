@@ -277,6 +277,7 @@ export default {
             </ui-text>
           </panel-managed>
         </panel-container>
+        <!--
         ${!options.managed &&
         store.ready(notification) &&
         html`
@@ -290,6 +291,7 @@ export default {
             <span slot="action">${notification.action}</span>
           </panel-notification>
         `}
+      -->
       `}
     </template>
   `,
