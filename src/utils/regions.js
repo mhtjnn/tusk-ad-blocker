@@ -47,4 +47,8 @@ const REGIONS = [
 
 export default REGIONS;
 
-export const DEFAULT_REGIONS = ['en'];
+export const DEFAULT_REGIONS = (navigator.languages || [navigator.language])
+  .map((lang) => lang.split('-')[0].toLowerCase())
+  .filter(
+    (lang, i, list) => REGIONS.includes(lang) && list.indexOf(lang) === i,
+  );

@@ -274,8 +274,8 @@ export default {
                   Never-Consent
                 </panel-options-item>
               </a>
-            </ui-text>
-          </panel-managed>
+            </ui-text> </panel-managed
+          ><br />
         </panel-container>
         <!--
         ${!options.managed &&
