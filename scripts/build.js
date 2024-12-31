@@ -356,7 +356,7 @@ manifest.web_accessible_resources?.forEach((entry) => {
   }
 
   paths.forEach((path) => {
-    if (path.includes('/redirects/')) return;
+    if (path.includes('redirects')) return;
 
     if (path.match(/\.(html)$/)) {
       source.push(path);
