@@ -60,6 +60,7 @@ export default {
           <ui-icon name="block-m" color="nav" layout="size:3"></ui-icon>
           Trackers
         </a>
+        <!--
         <a
           href="${router.url(Whotracksme)}"
           class="${{ active: router.active(Whotracksme), wrap: true }}"
@@ -70,28 +71,31 @@ export default {
           <ui-icon name="wtm" color="nav" layout="size:3"></ui-icon>
           WhoTracks.Me
         </a>
-
+          -->
+        <!-- Commenting My Account Option -->
+        <!--
         <a
           href="${router.url(Account)}"
           class="${{ active: router.active(Account), bottom: true }}"
           slot="nav"
         >
           ${store.ready(session) && session.user
-            ? html`
-                ${session.contributor
-                  ? html`<ui-icon name="contributor"></ui-icon>`
-                  : html`<ui-icon name="user" color="nav"></ui-icon>`}
-                <span layout@992px="hidden">My Account</span>
-                <div
-                  layout="hidden"
-                  layout@992px="column margin:left:2px width::0"
-                >
-                  <div>My Account</div>
-                  <ui-text type="body-m" ellipsis>${session.email}</ui-text>
-                </div>
-              `
-            : html`<ui-icon name="user" color="nav"></ui-icon> My Account`}
+          ? html`
+              ${session.contributor
+                ? html`<ui-icon name="contributor"></ui-icon>`
+                : html`<ui-icon name="user" color="nav"></ui-icon>`}
+              <span layout@992px="hidden">My Account</span>
+              <div
+                layout="hidden"
+                layout@992px="column margin:left:2px width::0"
+              >
+                <div>My Account</div>
+                <ui-text type="body-m" ellipsis>${session.email}</ui-text>
+              </div>
+            `
+          : html`<ui-icon name="user" color="nav"></ui-icon> My Account`}
         </a>
+        -->
         ${__PLATFORM__ !== 'safari' &&
         store.ready(session) &&
         html`
@@ -145,6 +149,7 @@ export default {
                       Help TUSK AdBlocker fight for a web where privacy is a
                       human right.
                     </ui-text>
+                    <!--
                     <ui-button type="primary" layout="margin:top">
                       <a
                         href="https://www.ghostery.com/become-a-contributor?utm_source=gbe"
@@ -157,7 +162,7 @@ export default {
                 `}
           </settings-card>
         `}
-        ${stack}
+        --> ${stack}
       </settings-layout>
     </template>
   `,

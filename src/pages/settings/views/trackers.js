@@ -111,6 +111,7 @@ export default {
                 color="primary-700"
                 underline
               >
+                <!--
                 <a
                   href="https://github.com/ghostery/trackerdb"
                   rel="noreferrer"
@@ -123,6 +124,7 @@ export default {
                     layout="block inline margin:bottom:-2px"
                   ></ui-icon>
                 </a>
+                -->
               </ui-text>
             </div>
             <div layout="row:wrap gap items:center">

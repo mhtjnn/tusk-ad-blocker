@@ -275,6 +275,7 @@ export default {
                       feedback. Please send a message to support@ghostery.com
                       describing how your experience changed after enabling.
                     </ui-text>
+                    <!--
                     <ui-text type="label-s" color="gray-600" underline>
                       <a
                         href="https://github.com/ghostery/broken-page-reports/blob/main/filters/experimental.txt"
@@ -286,6 +287,7 @@ export default {
                         <ui-icon name="arrow-right-s"></ui-icon>
                       </a>
                     </ui-text>
+                    -->
                   </div>
                 </ui-toggle>
                 <div layout="column gap">
@@ -311,6 +313,7 @@ export default {
                         Facilitates the creation of your own ad-blocking rules
                         to customize your TUSK AdBlocker experience.
                       </ui-text>
+                      <!--
                       <ui-text
                         type="label-s"
                         color="gray-600"
@@ -327,6 +330,7 @@ export default {
                           <ui-icon name="arrow-right-s"></ui-icon>
                         </a>
                       </ui-text>
+                      -->
                     </div>
                   </ui-toggle>
                   ${options.customFilters.enabled &&

@@ -26,7 +26,7 @@ export default {
         >
           <ui-icon name="logo" color="primary-500" layout="size:3"></ui-icon>
           <ui-text type="headline-s" color="primary-500">
-            TUSK AdBlocker settings
+            TUSK AdBlocker Settings
           </ui-text>
         </header>
         <nav
