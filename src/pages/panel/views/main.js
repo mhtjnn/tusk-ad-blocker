@@ -144,7 +144,7 @@ export default {
                 `
               : tail(stats.hostname))}
             <ui-action slot="icon">
-              <a href="https://www.ghostery.com" onclick="${openTabWithUrl}">
+              <a href="https://tusksearch.com/" onclick="${openTabWithUrl}">
                 <ui-icon name="logo"></ui-icon>
               </a>
             </ui-action>
