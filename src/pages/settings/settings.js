@@ -95,7 +95,7 @@ export default {
             `
           : html`<ui-icon name="user" color="nav"></ui-icon> My Account`}
         </a>
-        -->
+        
         ${__PLATFORM__ !== 'safari' &&
         store.ready(session) &&
         html`
@@ -131,6 +131,7 @@ export default {
                   </div>
                 `
               : html`
+              <!--
                   <img
                     src="${assets['hands']}"
                     layout="size:12"
@@ -149,7 +150,7 @@ export default {
                       Help TUSK AdBlocker fight for a web where privacy is a
                       human right.
                     </ui-text>
-                    <!--
+                    
                     <ui-button type="primary" layout="margin:top">
                       <a
                         href="https://www.ghostery.com/become-a-contributor?utm_source=gbe"
@@ -162,7 +163,8 @@ export default {
                 `}
           </settings-card>
         `}
-        --> ${stack}
+        -->
+        ${stack}
       </settings-layout>
     </template>
   `,

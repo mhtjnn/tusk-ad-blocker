@@ -97,14 +97,16 @@ export default {
                 <ui-text type="body-m" mobile-type="body-s" color="gray-600">
                   Suspends privacy protection globally for 1 day.
                 </ui-text>
-                ${globalPauseRevokeAt &&
-                html`
-                  <ui-text type="body-s" color="gray-600">
-                    <ui-revoke-at
-                      revokeAt="${globalPauseRevokeAt}"
-                    ></ui-revoke-at>
-                  </ui-text>
-                `}
+                ${
+                  globalPauseRevokeAt &&
+                  html`
+                    <ui-text type="body-s" color="gray-600">
+                      <ui-revoke-at
+                        revokeAt="${globalPauseRevokeAt}"
+                      ></ui-revoke-at>
+                    </ui-text>
+                  `
+                }
               </div>
             </ui-toggle>
             <ui-line></ui-line>
@@ -129,7 +131,8 @@ export default {
                       mobile-type="body-s"
                       color="gray-600"
                     >
-                      Eliminates ads on websites for safe and fast browsing.
+                      Eliminates all ads, including the ads that don’t track
+                      you.
                     </ui-text>
                   </div>
                 </ui-toggle>
@@ -251,6 +254,7 @@ export default {
                 </div>
               </ui-toggle>
               <ui-line></ui-line>
+              <!--
               <div layout="column gap:3">
                 <ui-text type="headline-xs" color="gray-600">Advanced</ui-text>
                 <ui-toggle
@@ -275,7 +279,7 @@ export default {
                       feedback. Please send a message to support@ghostery.com
                       describing how your experience changed after enabling.
                     </ui-text>
-                    <!--
+                    
                     <ui-text type="label-s" color="gray-600" underline>
                       <a
                         href="https://github.com/ghostery/broken-page-reports/blob/main/filters/experimental.txt"
@@ -287,7 +291,7 @@ export default {
                         <ui-icon name="arrow-right-s"></ui-icon>
                       </a>
                     </ui-text>
-                    -->
+                    
                   </div>
                 </ui-toggle>
                 <div layout="column gap">
@@ -303,6 +307,7 @@ export default {
                           name="detailed-view"
                           color="gray-800"
                         ></ui-icon>
+                        
                         <ui-text type="headline-xs">Custom Filters</ui-text>
                       </div>
                       <ui-text
@@ -313,7 +318,7 @@ export default {
                         Facilitates the creation of your own ad-blocking rules
                         to customize your TUSK AdBlocker experience.
                       </ui-text>
-                      <!--
+                     
                       <ui-text
                         type="label-s"
                         color="gray-600"
@@ -333,31 +338,34 @@ export default {
                       -->
                     </div>
                   </ui-toggle>
-                  ${options.customFilters.enabled &&
-                  html`
-                    <div layout="column gap">
-                      <div layout="self:start margin:bottom">
-                        <settings-checkbox
-                          disabled="${globalPause}"
-                          data-qa="checkbox:custom-filters:trusted-scriptlets"
-                        >
-                          <input
-                            type="checkbox"
+                  ${
+                    options.customFilters.enabled &&
+                    html`
+                      <div layout="column gap">
+                        <div layout="self:start margin:bottom">
+                          <settings-checkbox
                             disabled="${globalPause}"
-                            checked="${options.customFilters.trustedScriptlets}"
-                            onchange="${html.set(
-                              options,
-                              'customFilters.trustedScriptlets',
-                            )}"
-                          />
-                          <span slot="label">Allow trusted scriptlets</span>
-                        </settings-checkbox>
+                            data-qa="checkbox:custom-filters:trusted-scriptlets"
+                          >
+                            <input
+                              type="checkbox"
+                              disabled="${globalPause}"
+                              checked="${options.customFilters
+                                .trustedScriptlets}"
+                              onchange="${html.set(
+                                options,
+                                'customFilters.trustedScriptlets',
+                              )}"
+                            />
+                            <span slot="label">Allow trusted scriptlets</span>
+                          </settings-checkbox>
+                        </div>
+                        <settings-custom-filters
+                          disabled="${globalPause}"
+                        ></settings-custom-filters>
                       </div>
-                      <settings-custom-filters
-                        disabled="${globalPause}"
-                      ></settings-custom-filters>
-                    </div>
-                  `}
+                    `
+                  }
                 </div>
               </div>
             </div>

@@ -76,14 +76,26 @@ export default {
             data-qa="text:description"
           >
             ${msg.html`
-              Information about <a href="${router.url(WebTrackers)}">web trackers</a>,
-              <a href="${router.url(AddonHealth)}">add-on's health</a>, and
-              <a href="${router.url(Performance)}">performance telemetry</a>
-              will be shared in accordance with our <a href="${
+              Information about 
+              <!--<a href="${router.url(WebTrackers)}">-->
+              web trackers
+              <!--</a>-->,
+              <!--<a href="${router.url(AddonHealth)}">-->
+              add-on's health
+              <!--</a>-->
+              , and
+              <!--<a href="${router.url(Performance)}">-->
+              performance telemetry
+              <!--</a>-->
+              will be shared in accordance with our 
+              <!--<a href="${
                 __PLATFORM__ === 'firefox'
                   ? 'https://addons.mozilla.org/firefox/addon/TUSK-AdBlocker/privacy/'
                   : router.url(Privacy)
-              }" target="_blank" rel="noreferrer">Privacy Policy</a>, advancing privacy protection for the TUSK AdBlocker community. | 'add-on' means 'browser extension'
+              }" target="_blank" rel="noreferrer">-->
+              Privacy Policy
+              <!--</a>-->
+              , advancing privacy protection for the TUSK AdBlocker community. | 'add-on' means 'browser extension'
             `}
           </ui-text>
           <ui-text type="body-s" layout="block:justify">
@@ -97,6 +109,7 @@ export default {
               Enable TUSK AdBlocker
             </a>
           </ui-button>
+          <!--
           <onboarding-error-card layout="margin:top">
             <ui-text type="label-s" color="danger-500" layout="block:center">
               With TUSK AdBlocker disabled, only the basic functionality of
@@ -106,8 +119,10 @@ export default {
               <a href="${router.url(Skip)}">Keep Disabled</a>
             </ui-button>
           </onboarding-error-card>
+          -->
         </div>
       </ui-card>
+      <!--
       <div layout="column center">
         <ui-button type="transparent">
           <a href="${TERMS_AND_CONDITIONS_URL}" target="_blank">
@@ -115,6 +130,7 @@ export default {
           </a>
         </ui-button>
       </div>
+      -->
     </template>
   `,
 };

@@ -31,7 +31,9 @@ export default {
     <template layout="column gap">
       <ui-card data-qa="view:success">
         <section layout="block:center column gap:2">
+          <!--
           <div layout="row center">${protection}</div>
+          -->
           <ui-text type="display-s">Setup Successful</ui-text>
           <ui-text>
             TUSK AdBlocker is all set to stop trackers in their tracks and your
@@ -44,7 +46,7 @@ export default {
         <ui-card>
           <section layout="column gap:2">
             <ui-text type="display-xs" layout="block:center">
-              What’s next?
+              Important Next Step
             </ui-text>
             <img
               src="${PIN_EXTENSION_IMAGES[platform]}"
@@ -60,8 +62,8 @@ export default {
               <ui-text type="label-m">Pin Extension for easy access</ui-text>
             </div>
             <ui-text>
-              Click the puzzle icon next to the search bar and pin TUSK
-              AdBlocker your your toolbar.
+              1. Click the puzzle icon next to the search bar <br />
+              2. Click the pin next to TUSK to add to your toolbar
             </ui-text>
             <ui-text>
               TUSK AdBlocker will show how many trackers were blocked on a

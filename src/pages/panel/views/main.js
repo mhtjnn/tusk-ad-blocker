@@ -252,6 +252,7 @@ export default {
                 onclick="${openTabWithUrl}"
                 layout="block margin:1.5:1.5:0"
               >
+                <!--
                 <panel-options-item
                   icon="ads"
                   enabled="${options.blockAds}"
@@ -259,6 +260,7 @@ export default {
                 >
                   Ad-Blocking
                 </panel-options-item>
+                -->
                 <panel-options-item
                   icon="tracking"
                   enabled="${options.blockTrackers}"

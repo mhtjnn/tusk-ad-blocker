@@ -199,6 +199,7 @@ export default {
         </div>
         ${hasWTMStats(domain) &&
         html`
+          <!--
           <div layout="margin:3:0">
             <ui-action>
               <a href="${`${WTM_PAGE_URL}websites/${domain}`}" target="_blank">
@@ -208,6 +209,7 @@ export default {
               </a>
             </ui-action>
           </div>
+          -->
         `}
       </settings-page-layout>
     </template>
