@@ -22,7 +22,7 @@ import webRequestReporter from './webrequest-reporter.js';
 
 (async () => {
   try {
-    const key = 'TUSK_AdBlockerReportingLoggerConfig';
+    const key = 'TUSK_PrivacyReportingLoggerConfig';
     const { [key]: config } = (await chrome.storage.local.get(key)) || {};
     if (config) {
       for (const { level, prefix = '*' } of config) {

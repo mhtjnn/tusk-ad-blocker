@@ -125,7 +125,7 @@ export default {
                       color="gray-600"
                       layout="block:center"
                     >
-                      Thank you for your support in TUSK_AdBlocker's fight for
+                      Thank you for your support in TUSK_Privacy's fight for
                       where privacy is a basic human right!
                     </ui-text>
                   </div>

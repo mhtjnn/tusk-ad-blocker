@@ -74,9 +74,8 @@ mount(document.body, {
               </ui-action>
             </div>
             <ui-text type="body-s">
-              We know you rely on TUSK Privacy for a smooth YouTube
-              experience. Until a more refined solution emerges, here’s a
-              temporary fix.
+              We know you rely on TUSK Privacy for a smooth YouTube experience.
+              Until a more refined solution emerges, here’s a temporary fix.
             </ui-text>
             <div layout="column gap">
               <div layout="row gap:0.5">

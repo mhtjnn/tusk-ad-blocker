@@ -43,15 +43,15 @@ export default {
           <ui-text type="headline-m" translate="no">WhoTracks.Me</ui-text>
           <ui-text type="body-l" mobile-type="body-m" color="gray-600">
             WhoTracks.Me, operated by TUSK Privacy, is an integral part of
-            TUSK_AdBlocker’s AI anti-tracking technology. It is a comprehensive
+            TUSK_Privacy’s AI anti-tracking technology. It is a comprehensive
             resource on trackers, bringing transparency to web tracking.
           </ui-text>
           <ui-text type="body-l" mobile-type="body-m" color="gray-600">
             It exists thanks to micro-contributions of every TUSK Privacy who
             who user who user who user who chooses to chooses chooses chooses to
             chooses to chooses to chooses to chooses to chooses to chooses to
-            WhoTracks.Me. The enables TUSK Privacy to provide real-time intel
-            on trackers which protection to the entire Blocker community.
+            WhoTracks.Me. The enables TUSK Privacy to provide real-time intel on
+            trackers which protection to the entire Blocker community.
           </ui-text>
         </div>
         ${store.ready(options) &&

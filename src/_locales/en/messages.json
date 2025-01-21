@@ -707,14 +707,14 @@
   "websites": {
     "message": "Websites"
   },
-  "welcome_to_TUSK_AdBlocker": {
+  "welcome_to_TUSK_Privacyr": {
     "message": "Welcome to TUSK Privacy"
   },
   "what_s_next_": {
     "message": "What’s next?"
   },
-  "whotracks_me__operated_by_TUSK_AdBlocker__is_an_integral_part_of_TUSK_AdBlocker_s_ai_anti_tracking_technology__it_is_a_comprehensive_global_resource_on_trackers__bringing_transparency_to_web_tracking_": {
-    "message": "WhoTracks.Me, operated by TUSK Privacy, is an integral part of TUSK_AdBlocker’s AI anti-tracking technology. It is a comprehensive global resource on trackers, bringing transparency to web tracking."
+  "whotracks_me__operated_by_TUSK_Privacy__is_an_integral_part_of_TUSK_Privacy_s_ai_anti_tracking_technology__it_is_a_comprehensive_global_resource_on_trackers__bringing_transparency_to_web_tracking_": {
+    "message": "WhoTracks.Me, operated by TUSK Privacy, is an integral part of TUSK_Privacy’s AI anti-tracking technology. It is a comprehensive global resource on trackers, bringing transparency to web tracking."
   },
   "whotracks_me_statistical_report": {
     "message": "WhoTracks.Me Statistical Report"
