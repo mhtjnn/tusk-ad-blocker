@@ -1,6 +1,6 @@
 //
 //  Subscriptions.swift
-//  TUSK AdBlocker
+//  TUSK Privacy
 //
 //  Created by Krzysztof Jan Modras on 29.11.21.
 //
@@ -38,10 +38,10 @@ struct Subscriptions: View {
                 .frame(maxWidth: .infinity, alignment: .topLeading)
 
 
-            Text("Contribute to TUSK AdBlocker and support a clean, fast, and open web.")
+            Text("Contribute to TUSK Privacy and support a clean, fast, and open web.")
                 .multilineTextAlignment(.center)
                 .padding()
-            Text("Choose how to support TUSK AdBlocker:")
+            Text("Choose how to support TUSK Privacy:")
                 .font(.headline)
                 .padding()
 
@@ -58,13 +58,13 @@ struct Subscriptions: View {
             }
 
             Text("""
-            • By donating to TUSK AdBlocker, you are supporting our mission. Thank you for believing in us!
+            • By donating to TUSK Privacy, you are supporting our mission. Thank you for believing in us!
 
             • For now donating does not unlock any additional features, but it does help us.
 
             • We are working on implementing more privacy features and benefits on the Apple platform.
 
-            • You will soon be able to link your Apple subscription to your TUSK AdBlocker account and unlock additional features on other platforms.
+            • You will soon be able to link your Apple subscription to your TUSK Privacy account and unlock additional features on other platforms.
             """)
                 .font(.footnote)
                 .lineLimit(nil)

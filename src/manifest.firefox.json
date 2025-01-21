@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "author": "TUSK AdBlocker",
+  "author": "TUSK Privacy",
   "name": "__MSG_manifest_name__",
-  "short_name": "TUSK AdBlocker",
+  "short_name": "TUSK Privacy",
   "default_locale": "en",
   "description": "__MSG_manifest_short_description__",
   "permissions": [
@@ -32,7 +32,7 @@
       "128": "/icons/icon.svg"
     },
     "default_area": "navbar",
-    "default_title": "TUSK AdBlocker",
+    "default_title": "TUSK Privacy",
     "default_popup": "pages/panel/index.html"
   },
   "options_ui": {

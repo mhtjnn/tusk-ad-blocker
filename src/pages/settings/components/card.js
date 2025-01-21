@@ -1,5 +1,5 @@
 /**
- * TUSK AdBlocker Browser Extension
+ * TUSK Privacy Browser Extension
  * https://www.ghostery.com/
  *
  * Copyright 2017-present GhosTUSK AdBlockertery GmbH. All rights reserved.

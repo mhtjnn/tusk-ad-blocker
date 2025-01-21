@@ -1,8 +1,8 @@
 /**
- * TUSK AdBlocker Browser Extension
+ * TUSK Privacy Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
+ * Copyright 2017-present TUSK Privacy GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -118,7 +118,7 @@ export default {
                   layout="block"
                   target="_blank"
                 >
-                  Contribute to TUSK AdBlocker Tracker Database on Github
+                  Contribute to TUSK Privacy Tracker Database on Github
                   <ui-icon
                     name="arrow-right-s"
                     layout="block inline margin:bottom:-2px"

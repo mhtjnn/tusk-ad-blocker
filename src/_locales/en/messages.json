@@ -326,7 +326,7 @@
     "message": "Ghostery settings"
   },
   "ghostery_tracker___ad_blocker_is_naming_the_trackers_present_on_websites_you_visit__you_are_browsing_the_web_unprotected_": {
-    "message": "TUSK AdBlocker is naming the trackers present on websites you visit. You are browsing the web unprotected."
+    "message": "TUSK Privacy is naming the trackers present on websites you visit. You are browsing the web unprotected."
   },
   "ghostery_will_show_how_many_trackers_were_blocked_on_a_page__clicking_on_the_ghostery_icon_reveals_more_detailed_information_": {
     "message": "Ghostery will show how many trackers were blocked on a page. Clicking on the Ghostery icon reveals more detailed information."
@@ -690,10 +690,10 @@
     "message": "Visit our blog"
   },
   "we_know_you_rely_on_ghostery_for_a_smooth_youtube_experience__until_a_more_refined_solution_emerges__here_s_a_temporary_fix_": {
-    "message": "We know you rely on TUSK AdBlocker for a smooth YouTube experience. Until a more refined solution emerges, here’s a temporary fix."
+    "message": "We know you rely on TUSK Privacy for a smooth YouTube experience. Until a more refined solution emerges, here’s a temporary fix."
   },
   "we_re_so_glad_ghostery_has_your_heart__help_others_find_us_too___it_only_takes_a_moment_": {
-    "message": "We're so glad TUSK AdBlocker has your heart! Help others find us too - it only takes a moment."
+    "message": "We're so glad TUSK Privacy has your heart! Help others find us too - it only takes a moment."
   },
   "web_trackers": {
     "message": "Web Trackers"
@@ -708,13 +708,13 @@
     "message": "Websites"
   },
   "welcome_to_TUSK_AdBlocker": {
-    "message": "Welcome to TUSK AdBlocker"
+    "message": "Welcome to TUSK Privacy"
   },
   "what_s_next_": {
     "message": "What’s next?"
   },
   "whotracks_me__operated_by_TUSK_AdBlocker__is_an_integral_part_of_TUSK_AdBlocker_s_ai_anti_tracking_technology__it_is_a_comprehensive_global_resource_on_trackers__bringing_transparency_to_web_tracking_": {
-    "message": "WhoTracks.Me, operated by TUSK AdBlocker, is an integral part of TUSK_AdBlocker’s AI anti-tracking technology. It is a comprehensive global resource on trackers, bringing transparency to web tracking."
+    "message": "WhoTracks.Me, operated by TUSK Privacy, is an integral part of TUSK_AdBlocker’s AI anti-tracking technology. It is a comprehensive global resource on trackers, bringing transparency to web tracking."
   },
   "whotracks_me_statistical_report": {
     "message": "WhoTracks.Me Statistical Report"

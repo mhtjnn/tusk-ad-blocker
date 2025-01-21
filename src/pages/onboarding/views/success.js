@@ -1,8 +1,8 @@
 /**
- * TUSK AdBlocker Browser Extension
+ * TUSK Privacy Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
+ * Copyright 2017-present TUSK Privacy GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -36,7 +36,7 @@ export default {
           -->
           <ui-text type="display-s">Setup Successful</ui-text>
           <ui-text>
-            TUSK AdBlocker is all set to stop trackers in their tracks and your
+            TUSK Privacy is all set to stop trackers in their tracks and your
             your privacy while browsing!
           </ui-text>
         </section>
@@ -63,11 +63,11 @@ export default {
             </div>
             <ui-text>
               1. Click the puzzle icon next to the search bar <br />
-              2. Click the pin next to TUSK to add to your toolbar
+              2. Click the pin next to TUSK Privacy to add to your toolbar
             </ui-text>
             <ui-text>
-              TUSK AdBlocker will show how many trackers were blocked on a
-              Clicking on the TUSK AdBlocker icon reveals more detailed
+              TUSK Privacy will show how many trackers were blocked on a
+              Clicking on the TUSK Privacy icon reveals more detailed
               information.
             </ui-text>
           </section>

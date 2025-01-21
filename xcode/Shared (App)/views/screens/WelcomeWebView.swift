@@ -1,6 +1,6 @@
 //
 //  WelcomeWebView.swift
-//  TUSK AdBlocker
+//  TUSK Privacy
 //
 //  Created by Krzysztof Jan Modras on 29.11.21.
 //
@@ -87,7 +87,7 @@ class WebViewHelper: NSObject, WKNavigationDelegate {
                 'Extension is currently disabled. <br /> You can enable it in Safari Preferences.': '\(String(localized: "Extension is currently disabled. <br /> You can enable it in Safari Preferences."))',
                 'Open Safari Preferences': '\(String(localized: "Open Safari Preferences"))',
                 'You are protected': '\(String(localized: "You are protected"))',
-                'Enjoying TUSK AdBlocker?': '\(String(localized: "Enjoying TUSK AdBlocker?"))',
+                'Enjoying TUSK Privacy?': '\(String(localized: "Enjoying TUSK Privacy?"))',
                 'Support what we do': '\(String(localized: "Support what we do"))',
                 'Subscribe now': '\(String(localized: "Subscribe now"))',
                 'Need help?': '\(String(localized: "Need help?"))',

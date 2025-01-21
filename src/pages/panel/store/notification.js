@@ -21,7 +21,7 @@ const NOTIFICATIONS = {
   terms: {
     icon: 'triangle',
     type: 'warning',
-    text: msg`Due to browser restrictions and additional permissions missing, TUSK AdBlocker is not able to protect you.`,
+    text: msg`Due to browser restrictions and additional permissions missing, TUSK Privacy is not able to protect you.`,
     url:
       __PLATFORM__ === 'safari'
         ? 'https://www.ghostery.com/blog/how-to-install-extensions-in-safari?utm_source=gbe'
@@ -31,14 +31,14 @@ const NOTIFICATIONS = {
   opera: {
     icon: 'logo-opera',
     type: 'warning',
-    text: msg`Expand TUSK AdBlocker to search engines in a few easy steps.`,
+    text: msg`Expand TUSK Privacy to search engines in a few easy steps.`,
     url: 'https://www.ghostery.com/blog/block-search-engine-ads-on-opera-guide?utm_source=gbe&utm_campaign=opera_serp',
     action: msg`Enable Ad Blocking Now`,
   },
   review: {
     icon: 'call-for-review',
     type: 'review',
-    text: msg`We're so glad TUSK AdBlocker has your heart! Help others find us too - it only takes a moment.`,
+    text: msg`We're so glad TUSK Privacy has your heart! Help others find us too - it only takes a moment.`,
     url: (() => {
       if (__PLATFORM__ === 'safari') {
         return 'https://mygho.st/ReviewSafariPanel';
@@ -68,7 +68,7 @@ const NOTIFICATIONS = {
 const CONTRIBUTOR_NOTIFICATION = {
   icon: 'heart',
   type: '',
-  text: msg`Hey, do you enjoy TUSK AdBlocker and want to support our work?`,
+  text: msg`Hey, do you enjoy TUSK Privacy and want to support our work?`,
   url: 'https://www.ghostery.com/become-a-contributor?utm_source=gbe',
   action: msg`Become a Contributor`,
 };

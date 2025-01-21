@@ -73,7 +73,7 @@
     "message": "所有具有调整保护状态的网站将在此处列出。"
   },
   "allow_ghostery_in_private_windows": {
-    "message": "允许在私人窗口中使用 TUSK AdBlocker"
+    "message": "允许在私人窗口中使用 TUSK Privacy"
   },
   "allow_trusted_scriptlets": {
     "message": "允许受信任的脚本小程序"
@@ -101,7 +101,7 @@
     "message": "成为贡献者"
   },
   "being_an_eu_company__ghostery_strictly_adheres_to_the_gdpr__the_general_data_protection_regulation___which_regulates_data_collection_to_ensure_user_s_privacy_": {
-    "message": "作为一家欧盟公司，TUSK AdBlocker 严格遵守 GDPR（通用数据保护条例），该条例规范数据收集以确保用户隐私。."
+    "message": "作为一家欧盟公司，TUSK Privacy 严格遵守 GDPR（通用数据保护条例），该条例规范数据收集以确保用户隐私。."
   },
   "block_all__recommended_": {
     "message": "阻止所有（推荐）"
@@ -145,7 +145,7 @@
     "description": "Tracker category name"
   },
   "click_the_puzzle_icon_next_to_the_search_bar_and_pin_ghostery_to_your_toolbar_": {
-    "message": "点击搜索栏旁边的拼图图标，将 TUSK AdBlocker 固定在工具栏。"
+    "message": "点击搜索栏旁边的拼图图标，将 TUSK Privacy 固定在工具栏。"
   },
   "close": {
     "message": "关闭"
@@ -215,7 +215,7 @@
     "message": "已禁用"
   },
   "displays_the_tracker_count_on_the_ghostery_icon_in_the_browser_toolbar_": {
-    "message": "在浏览器工具栏中的 TUSK AdBlocker 图标上显示跟踪器计数。"
+    "message": "在浏览器工具栏中的 TUSK Privacy 图标上显示跟踪器计数。"
   },
   "dnr_rules__@_0_": {
     "message": "DNR规则：$${0}"
@@ -224,7 +224,7 @@
     "message": "别再问了"
   },
   "due_to_browser_restrictions_and_additional_permissions_missing__ghostery_is_not_able_to_protect_you_": {
-    "message": "由于浏览器限制和附加权限缺失，TUSK AdBlocker 无法为您提供保护。"
+    "message": "由于浏览器限制和附加权限缺失，TUSK Privacy 无法为您提供保护。"
   },
   "eliminates_ads_on_websites_for_safe_and_fast_browsing_": {
     "message": "清除网站上的广告，获得安全迅捷的浏览体验。"
@@ -237,10 +237,10 @@
     "message": "立即启用广告拦截功能"
   },
   "enable_ghostery": {
-    "message": "启用 TUSK AdBlocker"
+    "message": "启用 TUSK Privacy"
   },
   "enable_ghostery_to_get_started": {
-    "message": "启用 TUSK AdBlocker 以开始使用"
+    "message": "启用 TUSK Privacy 以开始使用"
   },
   "enable_now": {
     "message": "立即启用"
@@ -268,7 +268,7 @@
     "message": "展开"
   },
   "expand_ghostery_ad_blocking_to_search_engines_in_a_few_easy_steps_": {
-    "message": "只需简单几步，即可将 TUSK AdBlocker 广告拦截功能扩展到搜索引擎。"
+    "message": "只需简单几步，即可将 TUSK Privacy 广告拦截功能扩展到搜索引擎。"
   },
   "experimental_filters": {
     "message": "实验性过滤器"
@@ -290,16 +290,16 @@
     "message": "获取帮助"
   },
   "ghostery_has_been_resumed_": {
-    "message": "TUSK AdBlocker 已恢复。"
+    "message": "TUSK Privacy 已恢复。"
   },
   "ghostery_has_been_resumed_on_this_site_": {
-    "message": "TUSK AdBlocker 已在此网站上恢复。"
+    "message": "TUSK Privacy 已在此网站上恢复。"
   },
   "ghostery_has_nothing_to_do_on_this_page": {
-    "message": "TUSK AdBlocker 在此页面上没有作用"
+    "message": "TUSK Privacy 在此页面上没有作用"
   },
   "ghostery_is_all_set_to_stop_trackers_in_their_tracks_and_protect_your_privacy_while_browsing_": {
-    "message": "TUSK AdBlocker 已准备好阻止跟踪器，并在您浏览时保护您的隐私！"
+    "message": "TUSK Privacy 已准备好阻止跟踪器，并在您浏览时保护您的隐私！"
   },
   "ghostery_is_installed_with_limited_functionality": {
     "message": "TUSK AdBlocker安装了有限的功能"
@@ -308,7 +308,7 @@
     "message": "TUSK AdBlocker暂停了"
   },
   "ghostery_is_paused_on_this_site_": {
-    "message": "TUSK AdBlocker 已在此网站上暂停。"
+    "message": "TUSK Privacy 已在此网站上暂停。"
   },
   "ghostery_never_collects_personal_information_like_passwords__browsing_history_or_the_content_of_the_pages_you_visit_": {
     "message": "TUSK AdBlocker从不收集个人信息，如密码、浏览历史或您访问页面的内容。."
@@ -317,31 +317,31 @@
     "message": "GTUSK AdBlocker暂停了"
   },
   "ghostery_privacy_policy": {
-    "message": "TUSK AdBlocker 隐私政策"
+    "message": "TUSK Privacy 隐私政策"
   },
   "ghostery_protects_your_privacy_by_detecting_and_neutralizing_different_types_of_data_collection_including_ads__trackers__and_cookie_pop_ups_": {
-    "message": "TUSK AdBlocker 通过检测不同类型的数据收集方式包括广告、跟踪器，及 cookie 弹窗，并使其失效，从而保护您的隐私。"
+    "message": "TUSK Privacy 通过检测不同类型的数据收集方式包括广告、跟踪器，及 cookie 弹窗，并使其失效，从而保护您的隐私。"
   },
   "ghostery_settings": {
-    "message": "TUSK AdBlocker 设置"
+    "message": "TUSK Privacy 设置"
   },
   "ghostery_tracker___ad_blocker_is_naming_the_trackers_present_on_websites_you_visit__you_are_browsing_the_web_unprotected_": {
     "message": "TUSK AdBlocker正在命名您访问的网站上的跟踪器。您正在未受保护的情况下浏览网页。"
   },
   "ghostery_will_show_how_many_trackers_were_blocked_on_a_page__clicking_on_the_ghostery_icon_reveals_more_detailed_information_": {
-    "message": "TUSK AdBlocker 会显示页面上已阻止的跟踪器数量。点击 TUSK AdBlocker 图标，获取更多详情。"
+    "message": "TUSK Privacy 会显示页面上已阻止的跟踪器数量。点击 TUSK Privacy 图标，获取更多详情。"
   },
   "hashes_of_potentially_unique_identifier_in_requests_parameters": {
     "message": "请求参数中可能唯一标识符的哈希值"
   },
   "help_ghostery_fight_for_a_web_where_privacy_is_a_basic_human_right_": {
-    "message": "帮助 TUSK AdBlocker 为建立以隐私为基本人权的网络而奋斗。"
+    "message": "帮助 TUSK Privacy 为建立以隐私为基本人权的网络而奋斗。"
   },
   "helps_ghostery_fix_broken_pages_faster__by_activating_you_can_test_experimental_filters_and_support_us_with_feedback__please_send_a_message_to_support@ghostery_com_describing_how_your_experience_changed_after_enabling_": {
     "message": "帮助TUSK AdBlocker更快修复损坏的页面。通过激活，您可以测试实验性过滤器并通过反馈支持我们。请发送消息至support@ghostery.com，详细描述启用后的体验变化。"
   },
   "hey__do_you_enjoy_ghostery_and_want_to_support_our_work_": {
-    "message": "嗨，您喜欢 TUSK AdBlocker 并愿意支持我们的工作吗？"
+    "message": "嗨，您喜欢 TUSK Privacy 并愿意支持我们的工作吗？"
   },
   "hosting": {
     "message": "托管",
@@ -355,10 +355,10 @@
     "description": "'add-on' means 'browser extension'"
   },
   "it_exists_thanks_to_micro_contributions_of_every_ghostery_user_who_chooses_to_send_non_personal_information_to_whotracks_me__the_input_enables_ghostery_to_provide_real_time_intel_on_trackers_which_in_turn_provides_protection_to_the_entire_ghostery_community_": {
-    "message": "它的存在要归功于每个选择将非个人信息给 WhoTracks.Me 的 TUSK AdBlocker 用户的微小贡献。 这些输入使 TUSK AdBlocker 能够提供有关跟踪器的实时情报，从而为整个 Ghostery 社区提供保护。"
+    "message": "它的存在要归功于每个选择将非个人信息给 WhoTracks.Me 的 TUSK Privacy 用户的微小贡献。 这些输入使 TUSK Privacy 能够提供有关跟踪器的实时情报，从而为整个 Ghostery 社区提供保护。"
   },
   "join_ghostery": {
-    "message": "加入 TUSK AdBlocker"
+    "message": "加入 TUSK Privacy"
   },
   "k_anonymity_protected_reports_of_page_shows": {
     "message": "k-匿名保护的页面显示报告"
@@ -388,7 +388,7 @@
     "message": "加载更多"
   },
   "manifest_name": {
-    "message": "TUSK AdBlocker 跟踪器和广告拦截器 - 隐私广告拦截器"
+    "message": "TUSK Privacy 跟踪器和广告拦截器 - 隐私广告拦截器"
   },
   "manifest_short_description": {
     "message": "功能强大且易于使用的隐私扩展。阻止广告、跟踪器并加速您的网络。."
@@ -419,7 +419,7 @@
     "message": "姓名"
   },
   "navigate_to_a_website_to_see_ghostery_in_action_": {
-    "message": "导航到一个网站，查看 TUSK AdBlocker 的运行情况。"
+    "message": "导航到一个网站，查看 TUSK Privacy 的运行情况。"
   },
   "network_filters__@_0_": {
     "message": "网络过滤器：$${0}"
@@ -465,7 +465,7 @@
     "message": "对于此活动，我们的推荐"
   },
   "pause_ghostery": {
-    "message": "暂停 TUSK AdBlocker"
+    "message": "暂停 TUSK Privacy"
   },
   "pause_on_this_site": {
     "message": "在这个网站上暂停"
@@ -510,7 +510,7 @@
     "message": "区域过滤器"
   },
   "replaces_the_ghostery_icon_in_the_browser_toolbar_with_the_tracker_wheel_": {
-    "message": "将浏览器工具栏的 TUSK AdBlocker 图标替换为跟踪器轮盘。"
+    "message": "将浏览器工具栏的 TUSK Privacy 图标替换为跟踪器轮盘。"
   },
   "report_a_broken_page": {
     "message": "报告崩溃页面"
@@ -594,10 +594,10 @@
     "message": "条款和条件"
   },
   "thank_you_for_your_support_in_ghostery_s_fight_for_a_web_where_privacy_is_a_basic_human_right_": {
-    "message": "感谢支持 TUSK AdBlocker，为建立一个隐私是基本人权的网络而奋斗。"
+    "message": "感谢支持 TUSK Privacy，为建立一个隐私是基本人权的网络而奋斗。"
   },
   "this_site_will_always_be_paused__you_can_change_this_at_any_time_in_ghostery_settings_to_stop_trackers_and_ads_from_tracking_you_around_the_web": {
-    "message": "此网站将始终暂停。您可以随时在 TUSK AdBlocker 设置中更改此设置，以阻止跟踪器和广告在网络上跟踪您。"
+    "message": "此网站将始终暂停。您可以随时在 TUSK Privacy 设置中更改此设置，以阻止跟踪器和广告在网络上跟踪您。"
   },
   "this_site_will_be_paused_for_1_day": {
     "message": "该网站将暂停一天"
@@ -690,7 +690,7 @@
     "message": "访问我们的博客"
   },
   "we_know_you_rely_on_ghostery_for_a_smooth_youtube_experience__until_a_more_refined_solution_emerges__here_s_a_temporary_fix_": {
-    "message": "我们知道，您依赖 TUSK AdBlocker 来获得流畅的 YouTube 体验。在更完善的解决方案出现之前，这里有一个临时解决方案。"
+    "message": "我们知道，您依赖 TUSK Privacy 来获得流畅的 YouTube 体验。在更完善的解决方案出现之前，这里有一个临时解决方案。"
   },
   "we_re_so_glad_ghostery_has_your_heart__help_others_find_us_too___it_only_takes_a_moment_": {
     "message": "我们很高兴TUSK AdBlocker赢得了你的喜爱！帮助其他人也找到我们——这只需片刻时间。."
@@ -708,13 +708,13 @@
     "message": "网站"
   },
   "welcome_to_ghostery": {
-    "message": "欢迎使用 TUSK AdBlocker"
+    "message": "欢迎使用 TUSK Privacy"
   },
   "what_s_next_": {
     "message": "下一步是？"
   },
   "whotracks_me__operated_by_ghostery__is_an_integral_part_of_ghostery_s_ai_anti_tracking_technology__it_is_a_comprehensive_global_resource_on_trackers__bringing_transparency_to_web_tracking_": {
-    "message": "WhoTracks.Me 由 TUSK AdBlocker 运营，是 TUSK AdBlocker 人工智能反跟踪技术不可或缺的一部分。 WhoTracks.me 是全球最全面的跟踪器资源，为网络跟踪带来透明度。"
+    "message": "WhoTracks.Me 由 TUSK Privacy 运营，是 TUSK Privacy 人工智能反跟踪技术不可或缺的一部分。 WhoTracks.me 是全球最全面的跟踪器资源，为网络跟踪带来透明度。"
   },
   "whotracks_me_statistical_report": {
     "message": "WhoTracks.Me 统计报告"
