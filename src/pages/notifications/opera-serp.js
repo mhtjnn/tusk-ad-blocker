@@ -68,7 +68,7 @@ mount(document.body, {
               More ad blocking available
             </ui-text>
             <ui-text type="body-s" color="gray-600">
-              Expand TUSK AdBlocker to search engines in a few easy steps.
+              Expand TUSK Privacy to search engines in a few easy steps.
             </ui-text>
             <div layout="row:wrap gap">
               <ui-button type="success">

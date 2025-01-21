@@ -1,8 +1,8 @@
 /**
- * TUSK AdBlocker Browser Extension
+ * TUSK Privacy Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
+ * Copyright 2017-present TUSK Privacy GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -40,11 +40,11 @@ export default {
           color="gray-600"
           layout="margin:top block:justify"
         >
-          TUSK AdBlocker never collects personal information like passwords,
+          TUSK Privacy never collects personal information like passwords,
           history or the content of the pages you visit.
         </ui-text>
         <ui-text type="body-s" color="gray-600" layout="block:justify">
-          Being an EU company, TUSK AdBlocker strictly adheres to the GDPR (The
+          Being an EU company, TUSK Privacy strictly adheres to the GDPR (The
           General Data Protection Regulation), which regulates data collection
           to ensure user's privacy.
         </ui-text>

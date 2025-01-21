@@ -1,8 +1,8 @@
 /**
- * TUSK AdBlocker Browser Extension
+ * TUSK Privacy Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
+ * Copyright 2017-present TUSK Privacy GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -74,14 +74,13 @@ mount(document.body, {
               </ui-action>
             </div>
             <ui-text type="body-s">
-              We know you rely on TUSK AdBlocker for a smooth YouTube
-              experience. Until a more refined solution emerges, here’s a
-              temporary fix.
+              We know you rely on TUSK Privacy for a smooth YouTube experience.
+              Until a more refined solution emerges, here’s a temporary fix.
             </ui-text>
             <div layout="column gap">
               <div layout="row gap:0.5">
                 <ui-text type="label-m">
-                  <span translate="no">1.</span> Allow TUSK AdBlocker in windows
+                  <span translate="no">1.</span> Allow TUSK Privacy in windows
                 </ui-text>
               </div>
               <div layout="row">

@@ -1,8 +1,8 @@
 /**
- * TUSK AdBlocker Browser Extension
+ * TUSK Privacy Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
+ * Copyright 2017-present TUSK Privacy GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -20,12 +20,12 @@ const PREVIEWS = {
   'wtm_wheel': {
     src: assets['wtm_wheel'],
     title: msg`Trackers Wheel`,
-    description: msg`Replaces the TUSK AdBlocker icon in the browser toolbar with the tracker wheel.`,
+    description: msg`Replaces the TUSK Privacy icon in the browser toolbar with the tracker wheel.`,
   },
   'trackers_count': {
     src: assets['trackers_count'],
     title: msg`Trackers Count`,
-    description: msg`Displays the tracker count on the TUSK AdBlocker icon in the browser toolbar.`,
+    description: msg`Displays the tracker count on the TUSK Privacy icon in the browser toolbar.`,
   },
   'trackers_preview': {
     src: assets['trackers_preview'],
@@ -42,16 +42,16 @@ export default {
         <div layout="column gap" layout@992px="margin:bottom">
           <ui-text type="headline-m" translate="no">WhoTracks.Me</ui-text>
           <ui-text type="body-l" mobile-type="body-m" color="gray-600">
-            WhoTracks.Me, operated by TUSK AdBlocker, is an integral part of
-            TUSK_AdBlocker’s AI anti-tracking technology. It is a comprehensive
+            WhoTracks.Me, operated by TUSK Privacy, is an integral part of
+            TUSK_Privacy’s AI anti-tracking technology. It is a comprehensive
             resource on trackers, bringing transparency to web tracking.
           </ui-text>
           <ui-text type="body-l" mobile-type="body-m" color="gray-600">
-            It exists thanks to micro-contributions of every TUSK AdBlocker who
+            It exists thanks to micro-contributions of every TUSK Privacy who
             who user who user who user who chooses to chooses chooses chooses to
             chooses to chooses to chooses to chooses to chooses to chooses to
-            WhoTracks.Me. The enables TUSK AdBlocker to provide real-time intel
-            on trackers which protection to the entire Blocker community.
+            WhoTracks.Me. The enables TUSK Privacy to provide real-time intel on
+            trackers which protection to the entire Blocker community.
           </ui-text>
         </div>
         ${store.ready(options) &&
@@ -74,7 +74,7 @@ export default {
                 <div layout="column grow gap:0.5">
                   <ui-text type="headline-xs">WhoTracks.Me Wheel</ui-text>
                   <ui-text type="body-m" mobile-type="body-s" color="gray-600">
-                    Replaces the TUSK AdBlocker icon in the browser toolbar
+                    Replaces the TUSK Privacy icon in the browser toolbar
                     tracker wheel.
                   </ui-text>
                 </div>
@@ -103,7 +103,7 @@ export default {
                       mobile-type="body-s"
                       color="gray-600"
                     >
-                      Displays the tracker count on the TUSK AdBlocker icon in
+                      Displays the tracker count on the TUSK Privacy icon in
                       browser toolbar.
                     </ui-text>
                   </div>

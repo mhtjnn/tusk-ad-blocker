@@ -88,7 +88,7 @@ export default {
                   <ui-action-button layout="width:full" disabled>
                     <div layout="row gap">
                       <ui-icon name="pause"></ui-icon>
-                      <ui-text type="label-m">TUSK Ad Blocker paused</ui-text>
+                      <ui-text type="label-m">TUSK Privacy paused</ui-text>
                     </div>
                   </ui-action-button>
                 `

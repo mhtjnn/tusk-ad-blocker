@@ -25,7 +25,7 @@ const PAUSE_TYPES = [
   {
     value: 0,
     label: msg`Always`,
-    description: msg`This site will always be paused. You can change this at any time in TUSK AdBlocker settings to stop trackers and ads from tracking you around the web`,
+    description: msg`This site will always be paused. You can change this at any time in TUSK Privacy settings to stop trackers and ads from tracking you around the web`,
   },
 ];
 
@@ -84,7 +84,7 @@ export default {
           <div layout="column">
             <ui-text type="label-m" color="inherit">
               ${paused
-                ? msg`TUSK AdBlocker is paused`
+                ? msg`TUSK Privacy is paused`
                 : msg`Pause on this site`}
             </ui-text>
             ${!!revokeAt &&

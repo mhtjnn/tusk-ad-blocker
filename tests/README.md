@@ -18,29 +18,29 @@ After passing all the following tests, it can be assumed with a high level of co
 
 ### Disable extension 🤖
 
-> On the Onboarding tab, keep TUSK AdBlocker disabled
+> On the Onboarding tab, keep TUSK Privacy disabled
 
 1. Install the extension from ZIP.
 2. Check if the Onboarding tab is open.
 3. Click the "Keep Disabled" button.
-4. Check if the "TUSK AdBlocker is installed with limited functionality" text is visible.
+4. Check if the "TUSK Privacy is installed with limited functionality" text is visible.
 5. Close the Onboarding tab.
 
-TUSK AdBlocker is installed but kept disabled.
+TUSK Privacy is installed but kept disabled.
 
 ### Enable extension 🤖
 
-> On the Onboarding tab, enable TUSK AdBlocker to give all necessary permissions
+> On the Onboarding tab, enable TUSK Privacy to give all necessary permissions
 
-1. Open TUSK AdBlocker panel.
-2. Click "Enable TUSK AdBlocker" button on the TUSK AdBlocker panel.
+1. Open TUSK Privacy panel.
+2. Click "Enable TUSK Privacy" button on the TUSK Privacy panel.
 3. Check if the Onboarding tab is open.
-4. Click "Enable TUSK AdBlocker" button.
+4. Click "Enable TUSK Privacy" button.
 5. Check if the "Setup Successful" text is visible.
-6. Open TUSK AdBlocker panel
-7. Check if the "TUSK AdBlocker has nothing to do on this page. Navigate to a website to see TUSK AdBlocker in action." is visible.
+6. Open TUSK Privacy panel
+7. Check if the "TUSK Privacy has nothing to do on this page. Navigate to a website to see TUSK Privacy in action." is visible.
 
-TUSK AdBlocker is installed and enabled.
+TUSK Privacy is installed and enabled.
 
 ## Main features
 
@@ -48,10 +48,10 @@ TUSK AdBlocker is installed and enabled.
 
 > When Never-Consent is run on a test page, cookie pop-ups should be blocked
 
-1. Open TUSK AdBlocker Settings and turn OFF Never-Consent.
+1. Open TUSK Privacy Settings and turn OFF Never-Consent.
 2. Open website `TEST PAGE` (https://www.espn.com/).
 3. Cookie pop-up is visible.
-4. Open TUSK AdBlocker Settings.
+4. Open TUSK Privacy Settings.
 5. Turn ON Never-Consent.
 6. Reload website `TEST PAGE` (https://www.espn.com/).
 7. Cookie pop-up is hidden.
@@ -62,10 +62,10 @@ The cookie pop-up is hidden.
 
 > Ads on the test site must disappear when the Ad-Blocking module is activated
 
-1. Open TUSK AdBlocker Settings and turn OFF Ad-Blocking.
+1. Open TUSK Privacy Settings and turn OFF Ad-Blocking.
 2. Open website `TEST PAGE` (https://www.espn.com/).
 3. Ad is visible.
-4. Open TUSK AdBlocker Settings.
+4. Open TUSK Privacy Settings.
 5. Turn ON Ad-Blocking
 6. Reload website `TEST PAGE` (https://www.espn.com/).
 7. Ad is not visible.
@@ -78,15 +78,15 @@ Ads on the test site are not visible
 
 On Safari all of the DNR rules are provided by one combined list (ads), so the test is not applicable for this browser.
 
-1. Open TUSK AdBlocker Settings and turn OFF Anti-tracking.
+1. Open TUSK Privacy Settings and turn OFF Anti-tracking.
 2. Open website `TEST PAGE` (https://www.aarp.org/).
-3. Open TUSK AdBlocker Panel on Detailed View.
+3. Open TUSK Privacy Panel on Detailed View.
 4. Open Tracker `TRACKER NAME` (iSpot.tv) details.
 5. URLs are not blocked.
-6. Open TUSK AdBlocker Settings.
+6. Open TUSK Privacy Settings.
 7. Turn ON Anti-tracking.
 8. Reload website `TEST PAGE` (https://www.aarp.org/).
-9. Open TUSK AdBlocker Panel on Detailed View.
+9. Open TUSK Privacy Panel on Detailed View.
 10. Open Tracker `TRACKER NAME` (iSpot.tv) details.
 11. URLs are blocked.
 
@@ -96,10 +96,10 @@ URLs for the selected tracker are blocked.
 
 > Regional filters should work on a selected region - the test uses Polish region and a Polish website to test this functionality
 
-1. Open TUSK AdBlocker Settings and turn OFF Regional Filters.
+1. Open TUSK Privacy Settings and turn OFF Regional Filters.
 2. Open website `REGIONAL TEST PAGE` (https://www.cowwilanowie.pl/).
 3. Ad is visible.
-4. Open TUSK AdBlocker Settings.
+4. Open TUSK Privacy Settings.
 5. Turn ON Regional Filters.
 6. Tick the desired region - Polish (pl).
 7. Reload website `REGIONAL TEST PAGE` (https://www.cowwilanowie.pl/).
@@ -114,9 +114,9 @@ Ad on the regional test site is blocked.
 On Safari reloading the DNR rules may take up to a few minutes, so after pausing the website, the rules may not be applied immediately.
 
 1. Open website `TEST PAGE` (https://www.espn.com/).
-2. Open TUSK AdBlocker Panel.
+2. Open TUSK Privacy Panel.
 3. Click "Pause on this site [1 hour]" button.
-4. Open TUSK AdBlocker Panel. There should be "TUSK AdBlocker is paused [59m left]".
+4. Open TUSK Privacy Panel. There should be "TUSK Privacy is paused [59m left]".
 5. Trackers are not blocked and not modified.
 6. Ads are visible.
 7. Click "Undo" button.
@@ -128,14 +128,14 @@ On the test page, trackers are not blocked or modified, ads are visible.
 > When Global Pause is enabled, the entire extension should turn off its blocking activity on all pages
 
 1. Open website `TEST PAGE` (https://www.espn.com/).
-2. Open TUSK AdBlocker Settings.
-3. Click "Pause TUSK AdBlocker" button.
+2. Open TUSK Privacy Settings.
+3. Click "Pause TUSK Privacy" button.
 4. Reload website: `TEST PAGE` (https://www.espn.com/).
-5. Open TUSK AdBlocker Panel. There should be "TUSK AdBlocker is paused [23h 59m left]".
+5. Open TUSK Privacy Panel. There should be "TUSK Privacy is paused [23h 59m left]".
 6. Trackers are not blocked and not modified.
 7. Ads are visible.
 8. Open website `TEST PAGE` (https://www.aarp.org/).
-9. Open TUSK AdBlocker Panel. There should be "TUSK AdBlocker is paused [23h 59m left]".
+9. Open TUSK Privacy Panel. There should be "TUSK Privacy is paused [23h 59m left]".
 10. Trackers are not blocked and not modified.
 11. Ads are visible.
 
@@ -149,7 +149,7 @@ On the test pages, trackers are not blocked or modified, ads are visible.
 
 1. Open website `TEST PAGE` (https://example.com/).
 2. Text `Example Domain` is visible.
-3. Open TUSK AdBlocker Settings and turn ON Custom Filters.
+3. Open TUSK Privacy Settings and turn ON Custom Filters.
 4. Add CUSTOM FILTER `example.com##+js(rpnt, h1, Example Domain, "hello world")`
 5. Tick the checkbox for "Allow trusted scriplets" and Save it.
 6. Reload website `TEST PAGE` (https://example.com/).
@@ -162,14 +162,14 @@ On the test page, the text has been modified.
 > Add an exception to a tracker - global and/or selected page
 
 1. Open website `TEST PAGE` (https://www.aarp.org/).
-2. Open TUSK AdBlocker Panel on Detailed View.
+2. Open TUSK Privacy Panel on Detailed View.
 3. Open Tracker `TRACKER NAME` (DoubleClick) details.
 4. URLs are blocked.
 5. Click "Blocked on all websites" button.
 6. Protection Status should be visible.
 7. Tick on "Trust on all websites. Add exception".
 8. Reload website `TEST PAGE` (https://www.aarp.org/).
-9. Open TUSK AdBlocker Panel on Detailed View.
+9. Open TUSK Privacy Panel on Detailed View.
 10. Open Tracker `TRACKER NAME` (DoubleClick) details.
 11. URLs are observed.
 
@@ -189,18 +189,18 @@ An exception is added to the tracker. URLs are not blocked or modified, only obs
 
 Tracker Preview is working. Gathered information for a specific website are visible.
 
-### TUSK AdBlocker Account synchronization
+### TUSK Privacy Account synchronization
 
-> TUSK AdBlocker Account settings synchronization between browsers
+> TUSK Privacy Account settings synchronization between browsers
 
 1. Open Firefox browser and Chrome browser.
-2. In both browsers, login into TUSK AdBlocker Account.
-3. In both browsers, open TUSK AdBlocker Settings.
-4. In Firefox browser turn OFF Ad-Blocking. Reload TUSK AdBlocker Settings.
-5. In Chrome browser reload TUSK AdBlocker Settings.
+2. In both browsers, login into TUSK Privacy Account.
+3. In both browsers, open TUSK Privacy Settings.
+4. In Firefox browser turn OFF Ad-Blocking. Reload TUSK Privacy Settings.
+5. In Chrome browser reload TUSK Privacy Settings.
 6. Ad-Blocking should be turned OFF.
-7. Turn ON Ad-Blocking and turn OFF Anti-tracking. Reload TUSK AdBlocker Settings.
-8. In Firefox browser reload TUSK AdBlocker Settings.
+7. Turn ON Ad-Blocking and turn OFF Anti-tracking. Reload TUSK Privacy Settings.
+8. In Firefox browser reload TUSK Privacy Settings.
 9. Ad-Blocking should be turned ON. Anti-tracking should be OFF.
 
 Synchronization between browsers is working. In Firefox Ad-Blocking is enabled and Anti-tracking disabled.
@@ -211,15 +211,15 @@ Synchronization between browsers is working. In Firefox Ad-Blocking is enabled a
 
 Use Firefox, as it allows changing the language of the browser without changing the system language.
 
-1. Open TUSK AdBlocker panel.
+1. Open TUSK Privacy panel.
 2. All the text should be in LANGUAGE (english).
-3. Open TUSK AdBlocker Settings.
+3. Open TUSK Privacy Settings.
 4. All the text should be in LANGUAGE (english).
 5. Open browser settings and change the LANGUAGE from (english) to (french).
 6. Restart the browser.
-7. Open TUSK AdBlocker panel.
+7. Open TUSK Privacy panel.
 8. All the text should be in LANGUAGE (french).
-9. Open TUSK AdBlocker Settings.
+9. Open TUSK Privacy Settings.
 10. All the text should be in LANGUAGE (french).
 
 The language of the extension has been changed from the default.

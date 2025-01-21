@@ -76,6 +76,7 @@ export default {
         html`
           <ui-tooltip position="bottom">
             <span slot="content">WhoTracks.Me Statistical Report</span>
+            <!--
             <ui-action-button layout="size:4.5">
               <a
                 href="${WTM_URL}websites/${domain}"
@@ -85,6 +86,7 @@ export default {
                 <ui-icon name="whotracksme" color="gray-800"></ui-icon>
               </a>
             </ui-action-button>
+          </ui-tooltip>-->
           </ui-tooltip>
         `}
         ${trackers &&

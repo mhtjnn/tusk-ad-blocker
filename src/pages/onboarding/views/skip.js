@@ -1,8 +1,8 @@
 /**
- * TUSK AdBlocker Browser Extension
+ * TUSK Privacy Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
+ * Copyright 2017-present TUSK Privacy GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -23,10 +23,10 @@ export default {
         <section layout="block:center column gap:2">
           <div layout="row center">${disabled}</div>
           <ui-text type="display-s" color="danger-500">
-            TUSK AdBlocker is installed with limited functionality
+            TUSK Privacy is installed with limited functionality
           </ui-text>
           <ui-text type="body-m">
-            TUSK AdBlocker Tracker & Ad Blocker is naming the trackers present
+            TUSK Privacy Tracker & Ad Blocker is naming the trackers present
             websites you visit. You are browsing the web unprotected.
           </ui-text>
         </section>

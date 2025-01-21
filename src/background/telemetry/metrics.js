@@ -1,10 +1,10 @@
 /**
  * Metrics
  *
- * TUSK AdBlocker Browser Extension
+ * TUSK Privacy Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017 TUSK AdBlocker GmbH. All rights reserved.
+ * Copyright 2017 TUSK Privacy GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -161,7 +161,7 @@ class Metrics {
         this._sendReq(type, ['all', 'daily']);
         break;
 
-      // TUSK AdBlocker 8.0+
+      // TUSK Privacy 8.0+
       case 'adblock_off':
       case 'adblock_on':
       case 'antitrack_off':
@@ -178,7 +178,7 @@ class Metrics {
         this._sendReq(type, ['all', 'daily']);
         break;
 
-      // TUSK AdBlocker 8.3+
+      // TUSK Privacy 8.3+
       case 'sign_in_success':
       case 'create_account_success':
       case 'tutorial_start':
@@ -235,7 +235,7 @@ class Metrics {
   async _buildMetricsUrl(type, frequency) {
     // Make sure that Globals._checkBrowserInfo() has resolved before we proceed,
     // so that we use the correct BROWSER_INFO values if we are in
-    // the TUSK AdBlocker Desktop or TUSK AdBlocker Android browsers
+    // the TUSK Privacy Desktop or TUSK Privacy Android browsers
     const browserInfo = await getBrowserInfo();
     const conf = await this.getConf();
 
@@ -261,7 +261,7 @@ class Metrics {
       buildQueryPair('sc', conf.show_cmp ? '1' : '0') +
       // Subscription Type
       buildQueryPair('st', this._getSubscriptionType(conf).toString()) +
-      // New parameters for TUSK AdBlocker 8.5.2
+      // New parameters for TUSK Privacy 8.5.2
       // Subscription Interval
       buildQueryPair('si', this._getSubscriptionInterval().toString()) +
       // Product ID Parameter
@@ -307,7 +307,7 @@ class Metrics {
           'rc',
           this._getRecencyActive(type, frequency).toString(),
         ) +
-        // New parameters to TUSK AdBlocker 8.3
+        // New parameters to TUSK Privacy 8.3
         // Whether the computer ever had a Paid Subscription
         buildQueryPair('ps', conf.paid_subscription ? '1' : '0') +
         // Active Velocity
@@ -321,7 +321,7 @@ class Metrics {
         buildQueryPair('ve', this._getVelocityEngaged(type).toString()) +
         // Theme
         buildQueryPair('th', this._getThemeValue(conf).toString()) +
-        // New parameter for TUSK AdBlocker 8.5.3
+        // New parameter for TUSK Privacy 8.5.3
         // AB tests enabled?
         buildQueryPair('ts', conf.enable_abtests ? '1' : '0');
     }

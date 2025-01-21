@@ -23,7 +23,7 @@ export default {
       </div>
       <header layout="row center self:stretch gap:2 height:100px">
         <ui-icon name="logo-full"></ui-icon>
-        <h3>TUSK <br />AdBlocker</h3>
+        <h3>TUSK <br />Privacy</h3>
         <ui-icon name="slogan"></ui-icon>
       </header>
       <div layout="grow row content:center margin:0:1:4">

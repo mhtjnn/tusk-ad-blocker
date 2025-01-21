@@ -1,8 +1,8 @@
 /**
- * TUSK AdBlocker Browser Extension
+ * TUSK Privacy Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
+ * Copyright 2017-present TUSK Privacy GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -199,6 +199,7 @@ export default {
         </div>
         ${hasWTMStats(domain) &&
         html`
+          <!--
           <div layout="margin:3:0">
             <ui-action>
               <a href="${`${WTM_PAGE_URL}websites/${domain}`}" target="_blank">
@@ -208,6 +209,7 @@ export default {
               </a>
             </ui-action>
           </div>
+          -->
         `}
       </settings-page-layout>
     </template>

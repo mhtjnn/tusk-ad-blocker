@@ -1,8 +1,8 @@
 /**
- * TUSK AdBlocker Browser Extension
+ * TUSK Privacy Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
+ * Copyright 2017-present TUSK Privacy GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -74,8 +74,8 @@ async function togglePause(host, event) {
   showAlert(
     host,
     paused
-      ? msg`TUSK AdBlocker has been resumed on this site.`
-      : msg`TUSK AdBlocker is paused on this site.`,
+      ? msg`TUSK Privacy has been resumed on this site.`
+      : msg`TUSK Privacy is paused on this site.`,
   );
 }
 
@@ -88,7 +88,7 @@ function revokeGlobalPause(host) {
 
   reloadTab();
 
-  showAlert(host, msg`TUSK AdBlocker has been resumed.`);
+  showAlert(host, msg`TUSK Privacy has been resumed.`);
 }
 
 function setStatsType(host, event) {
@@ -144,7 +144,7 @@ export default {
                 `
               : tail(stats.hostname))}
             <ui-action slot="icon">
-              <a href="https://www.ghostery.com" onclick="${openTabWithUrl}">
+              <a href="https://tusksearch.com/" onclick="${openTabWithUrl}">
                 <ui-icon name="logo"></ui-icon>
               </a>
             </ui-action>
@@ -184,7 +184,7 @@ export default {
                   onclick="${openTabWithUrl}"
                 >
                   <ui-icon name="play"></ui-icon>
-                  Enable TUSK AdBlocker
+                  Enable TUSK Privacy
                 </a>
               </ui-button>
             `}
@@ -230,10 +230,10 @@ export default {
                     type="label-l"
                     layout="block:center width:::210px margin:top"
                   >
-                    TUSK AdBlocker has nothing to do on this page
+                    TUSK Privacy has nothing to do on this page
                   </ui-text>
                   <ui-text type="body-m" layout="block:center width:::245px">
-                    Navigate to a website to see TUSK AdBlocker in action.
+                    Navigate to a website to see TUSK Privacy in action.
                   </ui-text>
                 </div>
               `}
@@ -252,6 +252,7 @@ export default {
                 onclick="${openTabWithUrl}"
                 layout="block margin:1.5:1.5:0"
               >
+                <!--
                 <panel-options-item
                   icon="ads"
                   enabled="${options.blockAds}"
@@ -259,6 +260,7 @@ export default {
                 >
                   Ad-Blocking
                 </panel-options-item>
+                -->
                 <panel-options-item
                   icon="tracking"
                   enabled="${options.blockTrackers}"

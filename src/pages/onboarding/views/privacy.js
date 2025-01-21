@@ -1,8 +1,8 @@
 /**
- * TUSK AdBlocker Browser Extension
+ * TUSK Privacy Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
+ * Copyright 2017-present TUSK Privacy GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -41,7 +41,7 @@ export default {
   render: ({ policy }) => html`
     <onboarding-dialog>
       <ui-text slot="header" type="headline-m">
-        TUSK AdBlocker Privacy Policy
+        TUSK Privacy Privacy Policy
       </ui-text>
       <div>
         ${html.resolve(

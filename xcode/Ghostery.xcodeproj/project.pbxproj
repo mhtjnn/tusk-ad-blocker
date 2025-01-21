@@ -1273,7 +1273,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		468E427B2701F848008B5792 /* Build configuration list for PBXProject "TUSK AdBlocker" */ = {
+		468E427B2701F848008B5792 /* Build configuration list for PBXProject "TUSK Privacy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				468E42C92701F84A008B5792 /* Debug */,

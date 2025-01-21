@@ -73,7 +73,7 @@
     "message": "Alle Websites mit angepasstem Schutzstatus werden hier aufgelistet."
   },
   "allow_ghostery_in_private_windows": {
-    "message": "Erlaube TUSK AdBlocker in privaten Fenstern"
+    "message": "Erlaube TUSK Privacy in privaten Fenstern"
   },
   "allow_trusted_scriptlets": {
     "message": "\"Trusted Scriptlets\" erlauben"
@@ -98,10 +98,10 @@
     "message": "Zurück"
   },
   "become_a_contributor": {
-    "message": "Werde TUSK AdBlocker-Förderer"
+    "message": "Werde TUSK Privacy-Förderer"
   },
   "being_an_eu_company__ghostery_strictly_adheres_to_the_gdpr__the_general_data_protection_regulation___which_regulates_data_collection_to_ensure_user_s_privacy_": {
-    "message": "Als europäisches Unternehmen hält sich TUSK AdBlocker streng an die Datenschutz-Grundverordnung (DSGVO) der EU. Diese Verordnung regelt die Datenerhebung und stellt sicher, dass die Privatsphäre der Nutzer im Internet geschützt wird."
+    "message": "Als europäisches Unternehmen hält sich TUSK Privacy streng an die Datenschutz-Grundverordnung (DSGVO) der EU. Diese Verordnung regelt die Datenerhebung und stellt sicher, dass die Privatsphäre der Nutzer im Internet geschützt wird."
   },
   "block_all__recommended_": {
     "message": "Alle blockieren (empfohlen)"
@@ -145,7 +145,7 @@
     "description": "Tracker category name"
   },
   "click_the_puzzle_icon_next_to_the_search_bar_and_pin_ghostery_to_your_toolbar_": {
-    "message": "Klicken Sie auf das Puzzle-Symbol neben der Suchleiste, um TUSK AdBlocker an die Werkzeugleiste anzuheften."
+    "message": "Klicken Sie auf das Puzzle-Symbol neben der Suchleiste, um TUSK Privacy an die Werkzeugleiste anzuheften."
   },
   "close": {
     "message": "Schließen"
@@ -168,7 +168,7 @@
     "message": "Kontakt zum Support"
   },
   "contribute_to_ghostery_tracker_database_on_github": {
-    "message": "Zur TUSK AdBlocker Tracker-Datenbank auf Github beitragen"
+    "message": "Zur TUSK Privacy Tracker-Datenbank auf Github beitragen"
   },
   "contributor": {
     "message": "Unterstützer"
@@ -215,7 +215,7 @@
     "message": "Deaktiviert"
   },
   "displays_the_tracker_count_on_the_ghostery_icon_in_the_browser_toolbar_": {
-    "message": "Zeigt den Tracker-Zähler auf dem TUSK-AdBlocker-Symbol in der Browser-Werkzeugleiste an"
+    "message": "Zeigt den Tracker-Zähler auf dem TUSK Privacy-Symbol in der Browser-Werkzeugleiste an"
   },
   "dnr_rules__@_0_": {
     "message": "Regeln des DNR: $${0}"
@@ -224,7 +224,7 @@
     "message": "Frag nicht noch einmal"
   },
   "due_to_browser_restrictions_and_additional_permissions_missing__ghostery_is_not_able_to_protect_you_": {
-    "message": "Aufgrund von Browser-Einschränkungen und fehlenden zusätzlichen Berechtigungen kann TUSK AdBlocker Sie nicht schützen."
+    "message": "Aufgrund von Browser-Einschränkungen und fehlenden zusätzlichen Berechtigungen kann TUSK Privacy Sie nicht schützen."
   },
   "eliminates_ads_on_websites_for_safe_and_fast_browsing_": {
     "message": "Entfernt Werbung auf Websites für sicheres und schnelles Surfen."
@@ -237,10 +237,10 @@
     "message": "Werbeblocker jetzt aktivieren"
   },
   "enable_ghostery": {
-    "message": "TUSK AdBlocker aktivieren"
+    "message": "TUSK Privacy aktivieren"
   },
   "enable_ghostery_to_get_started": {
-    "message": "Aktivieren Sie TUSK AdBlocker, um loszulegen"
+    "message": "Aktivieren Sie TUSK Privacy, um loszulegen"
   },
   "enable_now": {
     "message": "Jetzt aktivieren"

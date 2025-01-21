@@ -1,8 +1,8 @@
 /**
- * TUSK AdBlocker Browser Extension
+ * TUSK Privacy Browser Extension
  * https://www.ghostery.com/
  *
- * Copyright 2017-present TUSK AdBlocker GmbH. All rights reserved.
+ * Copyright 2017-present TUSK Privacy GmbH. All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -95,7 +95,7 @@ export default {
             `
           : html`<ui-icon name="user" color="nav"></ui-icon> My Account`}
         </a>
-        -->
+        
         ${__PLATFORM__ !== 'safari' &&
         store.ready(session) &&
         html`
@@ -125,12 +125,13 @@ export default {
                       color="gray-600"
                       layout="block:center"
                     >
-                      Thank you for your support in TUSK_AdBlocker's fight for
+                      Thank you for your support in TUSK_Privacy's fight for
                       where privacy is a basic human right!
                     </ui-text>
                   </div>
                 `
               : html`
+              <!--
                   <img
                     src="${assets['hands']}"
                     layout="size:12"
@@ -146,10 +147,10 @@ export default {
                       color="gray-600"
                       layout="block:center"
                     >
-                      Help TUSK AdBlocker fight for a web where privacy is a
+                      Help TUSK Privacy fight for a web where privacy is a
                       human right.
                     </ui-text>
-                    <!--
+                    
                     <ui-button type="primary" layout="margin:top">
                       <a
                         href="https://www.ghostery.com/become-a-contributor?utm_source=gbe"
@@ -162,7 +163,8 @@ export default {
                 `}
           </settings-card>
         `}
-        --> ${stack}
+        -->
+        ${stack}
       </settings-layout>
     </template>
   `,
