@@ -11,7 +11,7 @@
 
 import { html, msg, store, router } from 'hybrids';
 
-import Options, { GLOBAL_PAUSE_ID } from '/store/options.js';
+import Options, { GLOBAL_PAUSE_ID, WHITELIST_WEBSITES } from '/store/options.js';
 import TrackerException from '/store/tracker-exception.js';
 
 import NoWebsitesSVG from '../assets/no_websites.svg';
@@ -71,11 +71,11 @@ export default {
       ? Object.entries(options.paused).map(([id, { revokeAt }]) => ({
           id,
           revokeAt,
-        }))
+        })).filter(x => WHITELIST_WEBSITES.indexOf(x.id) == -1)
       : [];
 
     query = query.toLowerCase().trim();
-
+    
     return [
       ...paused
         .filter(({ id }) => id !== GLOBAL_PAUSE_ID)

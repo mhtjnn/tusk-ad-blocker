@@ -25,7 +25,7 @@ export default {
           layout@992px="padding:5:3 content:start"
         >
           <ui-icon name="logo" color="primary-500" layout="size:3"></ui-icon>
-          <ui-text type="headline-s" color="primary-500">
+          <ui-text type="headline-s" color="primary2-500">
             TUSK Privacy Settings
           </ui-text>
         </header>

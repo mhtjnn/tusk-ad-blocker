@@ -46,7 +46,7 @@ export default {
     }
 
     header {
-      color: var(--ui-color-primary-500);
+      color: var(--ui-color-primary2-500);
     }
 
     @media (prefers-color-scheme: dark) {

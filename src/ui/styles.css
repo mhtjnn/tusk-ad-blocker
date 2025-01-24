@@ -32,11 +32,17 @@ html {
   --ui-color-gray-200: #e3e5e8;
   --ui-color-gray-100: #f3f4f7;
 
-  --ui-color-primary-700: #bb2d3b;
-  --ui-color-primary-500: #dc3545;
-  --ui-color-primary-300: #e6b2b2;
-  --ui-color-primary-200: #dbe9f1;
-  --ui-color-primary-100: #f5ecec;
+  --ui-color-primary-700: #0077cc;
+  --ui-color-primary-500: #00aef0;
+  --ui-color-primary-300: #9adeff;
+  --ui-color-primary-200: #daf3ff;
+  --ui-color-primary-100: #ebf7fd;
+
+  --ui-color-primary2-700: #bb2d3b;
+  --ui-color-primary2-500: #dc3545;
+  --ui-color-primary2-300: #e6b2b2;
+  --ui-color-primary2-200: #dbe9f1;
+  --ui-color-primary2-100: #f5ecec;
 
   --ui-color-success-700: #dc3545;
   --ui-color-success-500: #ff0000;
