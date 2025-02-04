@@ -404,8 +404,8 @@ export default {
                           You are awesome!
                         </ui-text>
                         <ui-text type="body-s" color="gray-600">
-                          Thank you for your support in TUSK Privacy's fight
-                          web where privacy is a basic human right!
+                          Thank you for your support in TUSK Privacy's fight web
+                          where privacy is a basic human right!
                         </ui-text>
                       </div>
                     </div>

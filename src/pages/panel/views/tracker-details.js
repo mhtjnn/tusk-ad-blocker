@@ -146,11 +146,13 @@ export default {
             `}
             ${wtmUrl &&
             html`
+              <!--
               <ui-text type="label-xs" color="primary-700" underline>
                 <a href="${wtmUrl}" onclick="${openTabWithUrl}">
                   Read more on WhoTracks.Me
                 </a>
               </ui-text>
+              -->
             `}
           </div>
           <ui-line></ui-line>

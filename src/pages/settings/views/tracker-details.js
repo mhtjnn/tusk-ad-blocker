@@ -186,6 +186,7 @@ export default {
                   )}
                 </settings-table>
               </div>
+              <!--
               <div layout="margin:3:0">
                 <ui-action>
                   <a
@@ -198,6 +199,7 @@ export default {
                   </a>
                 </ui-action>
               </div>
+              -->
               <div layout="column gap:4">
                 <div layout="column gap:4" layout@768px="grid:2fr|1fr">
                   ${tracker.organization?.name &&
