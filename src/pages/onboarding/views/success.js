@@ -31,9 +31,7 @@ export default {
     <template layout="column gap">
       <ui-card data-qa="view:success">
         <section layout="block:center column gap:2">
-          <!--
           <div layout="row center">${protection}</div>
-          -->
           <ui-text type="display-s">Setup Successful</ui-text>
           <ui-text>
             TUSK Privacy is all set to stop trackers in their tracks and your

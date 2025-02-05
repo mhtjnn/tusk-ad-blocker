@@ -223,7 +223,7 @@ export default {
                 <div layout="column items:center gap margin:1.5">
                   <img
                     src="${sleep}"
-                    alt="Ghosty sleeping"
+                    alt="TUSK Privacy sleeping"
                     layout="size:160px"
                   />
                   <ui-text

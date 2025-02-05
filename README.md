@@ -5,20 +5,20 @@
 
 TUSK Privacy is a powerful Tracker & Adblocker browser extension with over 100 million downloads. Block ads, stop trackers, and speed up websites. Privacy at its best.
 
-* Block all ads on websites, including YouTube and Facebook, to focus on the information that matters.
-* Stop trackers from collecting your personal data.
-* Automatically remove intrusive cookie pop-ups and express dissent to online tracking.
-* Get detailed tracker information on any website you visit, including the number of trackers, their type, and the company operating them.
-* Preview tracker information on search engine result pages to make informed choices.
-* Inspect the largest database of trackers, updated fast and reliably for all users.
+- Block all ads on websites, including YouTube and Facebook, to focus on the information that matters.
+- Stop trackers from collecting your personal data.
+- Automatically remove intrusive cookie pop-ups and express dissent to online tracking.
+- Get detailed tracker information on any website you visit, including the number of trackers, their type, and the company operating them.
+- Preview tracker information on search engine result pages to make informed choices.
+- Inspect the largest database of trackers, updated fast and reliably for all users.
 
 ## Links
 
-* [Website](https://www.ghostery.com/)
-* [Broken Page Reports](https://github.com/ghostery/broken-page-reports/)
-* [Support](https://www.ghostery.com/support)
-* [X, formerly Twitter (@ghostery)](https://twitter.com/ghostery)
-* [Privacy Policy](https://www.ghostery.com/about-ghostery/browser-extension-privacy-policy/)
+- [Website](https://www.ghostery.com/)
+- [Broken Page Reports](https://github.com/ghostery/broken-page-reports/)
+- [Support](https://www.ghostery.com/support)
+- [X, formerly Twitter (@ghostery)](https://twitter.com/ghostery)
+- [Privacy Policy](https://www.ghostery.com/about-ghostery/browser-extension-privacy-policy/)
 
 ## Development
 
@@ -38,8 +38,8 @@ npm start [chromium|firefox]
 
 You can add the target after the `start` command to run the extension in a different Chromium-based browser:
 
-* Opera - `npm start -- --browser=opera`
-* Edge - `npm start -- --browser=edge`
+- Opera - `npm start -- --browser=opera`
+- Edge - `npm start -- --browser=edge`
 
 To run local version in Safari, you have to use Xcode. The project files are available in the `xcode` folder, but Apple's ecosystem is more complex. Fortunately, most changes can be tested reliably in Chrome.
 
@@ -53,7 +53,11 @@ npm start -- --clean
 
 ## TUSK Privacy Team
 
-TUSK Privacy relies on [contributions](https://github.com/ghostery/ghostery-extension/graphs/contributors) from lots of talented people.
+TUSK Privacy relies on [contributions]
+
+<!-- (https://github.com/ghostery/ghostery-extension/graphs/contributors) -->
+
+from lots of talented people.
 
 ## License
 
