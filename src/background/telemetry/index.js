@@ -73,8 +73,8 @@ const setup = asyncSetup('telemetry', [
 
     metrics = new Metrics({
       METRICS_BASE_URL: debugMode
-        ? 'https://staging-d.ghostery.com'
-        : 'https://d.ghostery.com',
+        ? 'https://tuskbrowser.com'
+        : 'https://tuskbrowser.com',
       EXTENSION_VERSION: version,
       getConf: () => getConf(storage),
       log: console.log.bind(console, '[telemetry]'),
@@ -92,7 +92,7 @@ const setup = asyncSetup('telemetry', [
       metrics.setUTMs(utms);
     }
 
-    metrics.setUninstallUrl();
+    chrome.runtime.setUninstallURL('https://tuskbrowser.com');
   })(),
 ]);
 

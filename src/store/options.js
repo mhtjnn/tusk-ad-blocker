@@ -42,13 +42,11 @@ export const ENGINES = [
 
 const OPTIONS_VERSION = 3;
 
-export const WHITELIST_WEBSITES = [  
-  'tusksearch.com'
-]
+export const WHITELIST_WEBSITES = ['tusksearch.com'];
 
 const Options = {
   // Main features
-  blockAds: true,
+  blockAds: false,
   blockTrackers: true,
   blockAnnoyances: true,
 

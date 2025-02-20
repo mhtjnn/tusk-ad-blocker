@@ -97,7 +97,7 @@ class Metrics {
   async detectUTMs() {
     const tabs = await chrome.tabs.query({
       url: [
-        'https://www.ghostery.com/*',
+        'https://www.tuskbrowser.com/*',
         'https://www.ghosterystage.com/*',
         'https://chrome.google.com/webstore/detail/ghostery-*/mlomiejdfkolichcflejclcbmpeaniij*',
         'https://microsoftedge.microsoft.com/addons/detail/ghostery-*/fclbdkbhjlgkbpfldjodgjncejkkjcme*',
