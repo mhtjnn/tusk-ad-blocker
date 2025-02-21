@@ -98,12 +98,12 @@ class Metrics {
     const tabs = await chrome.tabs.query({
       url: [
         'https://www.tuskbrowser.com/*',
-        'https://www.ghosterystage.com/*',
-        'https://chrome.google.com/webstore/detail/ghostery-*/mlomiejdfkolichcflejclcbmpeaniij*',
-        'https://microsoftedge.microsoft.com/addons/detail/ghostery-*/fclbdkbhjlgkbpfldjodgjncejkkjcme*',
-        'https://addons.mozilla.org/*/firefox/addon/ghostery/*',
-        'https://addons.opera.com/*/extensions/details/ghostery/*',
-        'https://apps.apple.com/app/apple-store/id1436953057/*',
+        'https://www.tuskbrowser.com/*',
+        'https://www.tuskbrowser.com/*',
+        'https://www.tuskbrowser.com/*',
+        'https://www.tuskbrowser.com/*',
+        'https://www.tuskbrowser.com/*',
+        'https://www.tuskbrowser.com/*',
       ],
     });
 

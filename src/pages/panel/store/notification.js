@@ -69,7 +69,7 @@ const CONTRIBUTOR_NOTIFICATION = {
   icon: 'heart',
   type: '',
   text: msg`Hey, do you enjoy TUSK Privacy and want to support our work?`,
-  url: 'https://www.ghostery.com/become-a-contributor?utm_source=gbe',
+  url: 'https://tuskbrowser.com/support-free-speech-today/',
   action: msg`Become a Contributor`,
 };
 

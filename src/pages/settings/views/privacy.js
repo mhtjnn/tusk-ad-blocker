@@ -432,7 +432,7 @@ export default {
                       </div>
                       <ui-button type="primary" layout="grow margin:top">
                         <a
-                          href="https://www.ghostery.com/become-a-contributor?utm_source=gbe"
+                          href="https://tuskbrowser.com/support-free-speech-today/"
                           target="_blank"
                         >
                           Become a Contributor

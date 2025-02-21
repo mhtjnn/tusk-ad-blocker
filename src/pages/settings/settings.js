@@ -95,7 +95,7 @@ export default {
             `
           : html`<ui-icon name="user" color="nav"></ui-icon> My Account`}
         </a>
-        
+        -->
         ${__PLATFORM__ !== 'safari' &&
         store.ready(session) &&
         html`
@@ -131,7 +131,6 @@ export default {
                   </div>
                 `
               : html`
-              <!--
                   <img
                     src="${assets['hands']}"
                     layout="size:12"
@@ -147,13 +146,13 @@ export default {
                       color="gray-600"
                       layout="block:center"
                     >
-                      Help TUSK Privacy fight for a web where privacy is a
-                      human right.
+                      Help TUSK Privacy fight for a web where privacy is a human
+                      right.
                     </ui-text>
-                    
+
                     <ui-button type="primary" layout="margin:top">
                       <a
-                        href="https://www.ghostery.com/become-a-contributor?utm_source=gbe"
+                        href="https://tuskbrowser.com/support-free-speech-today/"
                         onclick="${openTabWithUrl}"
                       >
                         Become a Contributor
@@ -163,7 +162,6 @@ export default {
                 `}
           </settings-card>
         `}
-        -->
         ${stack}
       </settings-layout>
     </template>

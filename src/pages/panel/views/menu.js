@@ -79,24 +79,24 @@ export default {
               </panel-menu-item>
               -->
               <!-- Uncomment the following sections as needed -->
-              <!-- 
+
               <panel-menu-item
                 href="${chrome.runtime.getURL(
-                '/pages/settings/index.html#@settings-account',
-              )}"
+                  '/pages/settings/index.html#@settings-account',
+                )}"
                 icon="${store.ready(session) && session.contributor
-                ? 'contributor'
-                : 'user'}"
+                  ? 'contributor'
+                  : 'user'}"
               >
                 <div layout="column">
                   <span>My Account</span>
                   ${store.ready(session) &&
-              (session.name || session.email) &&
-              html`
-                <ui-text type="body-xs" color="inherit">
-                  ${session.name || session.email}
-                </ui-text>
-              `}
+                  (session.name || session.email) &&
+                  html`
+                    <ui-text type="body-xs" color="inherit">
+                      ${session.name || session.email}
+                    </ui-text>
+                  `}
                 </div>
               </panel-menu-item>
 
@@ -106,7 +106,7 @@ export default {
               html`
                 <ui-button type="outline-primary" layout="margin:1:1.5">
                   <a
-                    href="https://www.ghostery.com/become-a-contributor?utm_source=gbe"
+                    href="https://tuskbrowser.com/support-free-speech-today/"
                     onclick="${openTabWithUrl}"
                   >
                     <ui-icon name="heart"></ui-icon>
@@ -114,7 +114,7 @@ export default {
                   </a>
                 </ui-button>
               `}
-              -->
+
               <ui-line></ui-line>
             `}
 
