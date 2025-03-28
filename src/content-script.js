@@ -1,19 +1,18 @@
-// Create a new id element
-const messageid = document.createElement('id');
-// Style the id
-messageid.style.position = 'fixed';
-messageid.style.bottom = '0';
-// messageid.style.width = '100%';
-messageid.style.backgroundColor = '#cdced0';
-messageid.style.color = '#dc3545';
-messageid.style.textAlign = 'center';
-messageid.style.fontSize = '12px'; 
-messageid.style.padding = '2px';
-messageid.style.zIndex = '9999';
-messageid.style.fontFamily = 'Arial, sans-serif';
+// Create a new div element with the specified ID
+const messageDiv = document.createElement('div');
+messageDiv.id = 'tusk-privacy-installed';
 
-// Set the message
-messageid.textContent = 'TUSK-Privacy Installed.';
+// Style the div (optional, remove if no styling is needed)
+messageDiv.style.position = 'fixed';
+messageDiv.style.bottom = '0';
+// messageDiv.style.width = '100%';
+messageDiv.style.backgroundColor = '#cdced0';
+messageDiv.style.color = '#dc3545';
+messageDiv.style.textAlign = 'center';
+messageDiv.style.fontSize = '12px';
+messageDiv.style.padding = '2px';
+messageDiv.style.zIndex = '9999';
+messageDiv.style.fontFamily = 'Arial, sans-serif';
 
-// Append the id to the body
-document.body.appendChild(messageid);
+// Append the div to the body
+document.body.appendChild(messageDiv);
